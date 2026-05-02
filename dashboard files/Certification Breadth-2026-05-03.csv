@@ -1,0 +1,44 @@
+EMP_ID,EMPLOYEE_NAME,DISTRICT_NAME,total_certs,active_certs,expired_certs,avg_cert_duration_days,HIGHEST_EARNED_DEGREE,years_of_service,total_compensation,cert_list,cert_breadth_rank,_gold_ingested_at
+10006,Basile Kindlund,Compton Unified,10,0,10,1801,Master     ,26,89343,"[""French Language Endorsement"",""Art Endorsement"",""Kindergarten to 3rd Grage Certification"",""9th to 12th Grade Certification"",""4th to 8th Grade Certification"",""Reading Endorsement"",""Math Endorsement"",""German Language Endorsement"",""Music Endorsement"",""Teaching Certificate""]",1,2026-05-02 17:39:34
+10140,Tamas Lans,Compton Unified,10,0,10,1625,Bachelor   ,19,80531,"[""German Language Endorsement"",""Teaching Certificate"",""French Language Endorsement"",""Math Endorsement"",""Music Endorsement"",""Art Endorsement"",""Kindergarten to 3rd Grage Certification"",""9th to 12th Grade Certification"",""Reading Endorsement"",""4th to 8th Grade Certification""]",2,2026-05-02 17:39:34
+10166,Zedekiah Iakovou,Beverly Hills Unified,10,0,10,1653,Bachelor   ,12,14273,"[""Teaching Certificate"",""Math Endorsement"",""Art Endorsement"",""9th to 12th Grade Certification"",""French Language Endorsement"",""4th to 8th Grade Certification"",""German Language Endorsement"",""Music Endorsement"",""Kindergarten to 3rd Grage Certification"",""Reading Endorsement""]",3,2026-05-02 17:39:34
+11996,Annaliese Guss,Ontario-Montclair,1,0,1,846,Bachelor   ,25,106602,"[""Reading Endorsement""]",4,2026-05-02 17:39:34
+10222,Johnna Soibelman,San Francisco Unified,1,0,1,1766,Bachelor   ,26,104589,"[""French Language Endorsement""]",5,2026-05-02 17:39:34
+10233,Thayne Gasset,Beverly Hills Unified,1,0,1,2261,Bachelor   ,11,103931,"[""Teaching Certificate""]",6,2026-05-02 17:39:34
+11183,Stephana Kennett,Ontario-Montclair,1,0,1,1068,Master     ,28,100716,"[""German Language Endorsement""]",7,2026-05-02 17:39:34
+10243,Lyman Vanyo,San Francisco Unified,1,0,1,691,Bachelor   ,21,99599,"[""9th to 12th Grade Certification""]",8,2026-05-02 17:39:34
+12734,Nowell Moynagh,Ontario-Montclair,1,0,1,1591,Bachelor   ,27,98618,"[""9th to 12th Grade Certification""]",9,2026-05-02 17:39:34
+13202,Jermayne Boeriu,Beverly Hills Unified,1,0,1,2771,Bachelor   ,14,98597,"[""Kindergarten to 3rd Grage Certification""]",10,2026-05-02 17:39:34
+11181,Rorie Rodgers,Compton Unified,1,0,1,2337,Master     ,12,97648,"[""Teaching Certificate""]",11,2026-05-02 17:39:34
+10152,Boyce Melville,Ontario-Montclair,1,0,1,2222,Master     ,29,97341,"[""Math Endorsement""]",12,2026-05-02 17:39:34
+10676,Midge Woodhead,San Francisco Unified,1,0,1,3418,Bachelor   ,18,97337,"[""Music Endorsement""]",13,2026-05-02 17:39:34
+12457,Loella Bolitho,Compton Unified,1,0,1,2916,Master     ,12,96901,"[""9th to 12th Grade Certification""]",14,2026-05-02 17:39:34
+11057,Mike Bartovics,San Francisco Unified,1,0,1,527,Bachelor   ,23,95358,"[""Music Endorsement""]",15,2026-05-02 17:39:34
+11907,Hort Isserman,San Francisco Unified,1,0,1,1507,Bachelor   ,20,94050,"[""German Language Endorsement""]",16,2026-05-02 17:39:34
+10252,Nertie Connelly,San Francisco Unified,1,0,1,2161,Bachelor   ,17,93792,"[""French Language Endorsement""]",17,2026-05-02 17:39:34
+12620,Osmund Merrow,San Francisco Unified,1,0,1,2216,Bachelor   ,10,88577,"[""Music Endorsement""]",18,2026-05-02 17:39:34
+10310,Hoebart Lopes,San Francisco Unified,1,0,1,1534,Bachelor   ,22,88156,"[""9th to 12th Grade Certification""]",19,2026-05-02 17:39:34
+11888,Gonzalo Cammelli,San Francisco Unified,1,0,1,1067,Bachelor   ,10,87617,"[""Kindergarten to 3rd Grage Certification""]",20,2026-05-02 17:39:34
+12669,Oona Gualtieri,San Francisco Unified,1,0,1,1644,Bachelor   ,21,87093,"[""Kindergarten to 3rd Grage Certification""]",21,2026-05-02 17:39:34
+11684,Gaylene Prothero,San Francisco Unified,1,0,1,936,Bachelor   ,35,86213,"[""4th to 8th Grade Certification""]",22,2026-05-02 17:39:34
+11728,Catrina Conklin,Beverly Hills Unified,1,0,1,1305,Bachelor   ,17,84037,"[""German Language Endorsement""]",23,2026-05-02 17:39:34
+13014,Laurella Colella,Ontario-Montclair,1,0,1,2183,Bachelor   ,14,82247,"[""9th to 12th Grade Certification""]",24,2026-05-02 17:39:34
+11176,Fair Halperin,San Francisco Unified,1,0,1,914,Bachelor   ,26,80288,"[""9th to 12th Grade Certification""]",25,2026-05-02 17:39:34
+11333,Ward Rish,San Francisco Unified,1,0,1,1178,Bachelor   ,29,80024,"[""French Language Endorsement""]",26,2026-05-02 17:39:34
+11504,Gavrielle Hughes-davies,San Francisco Unified,1,0,1,2205,Bachelor   ,23,79148,"[""Kindergarten to 3rd Grage Certification""]",27,2026-05-02 17:39:34
+10391,Dani Waring,Ontario-Montclair,1,0,1,1844,Bachelor   ,30,78014,"[""Kindergarten to 3rd Grage Certification""]",28,2026-05-02 17:39:34
+13184,Salmon Gillevet,Compton Unified,1,0,1,2217,Bachelor   ,26,77009,"[""9th to 12th Grade Certification""]",29,2026-05-02 17:39:34
+12789,Shanna Mcleon,San Francisco Unified,1,0,1,1074,Bachelor   ,25,70470,"[""Teaching Certificate""]",30,2026-05-02 17:39:34
+12807,Murry Mcmillan,San Francisco Unified,1,0,1,396,Bachelor   ,20,69340,"[""Kindergarten to 3rd Grage Certification""]",31,2026-05-02 17:39:34
+12928,Spencer Lacount,San Francisco Unified,1,0,1,2222,Bachelor   ,26,66324,"[""Teaching Certificate""]",32,2026-05-02 17:39:34
+12646,Mark Nichipor,San Francisco Unified,1,0,1,1108,Bachelor   ,19,62945,"[""Music Endorsement""]",33,2026-05-02 17:39:34
+11762,Rhetta Gottardo,San Francisco Unified,1,0,1,2578,Bachelor   ,15,61382,"[""Kindergarten to 3rd Grage Certification""]",34,2026-05-02 17:39:34
+11071,Zack Agterberg,Compton Unified,1,0,1,643,Bachelor   ,28,51736,"[""Teaching Certificate""]",35,2026-05-02 17:39:34
+12802,Nyssa Boyce,San Francisco Unified,1,0,1,2267,Bachelor   ,31,49289,"[""9th to 12th Grade Certification""]",36,2026-05-02 17:39:34
+10015,Skip Krezel,San Francisco Unified,1,0,1,1048,Bachelor   ,29,43911,"[""Kindergarten to 3rd Grage Certification""]",37,2026-05-02 17:39:34
+13135,Monika Ephron,San Francisco Unified,1,0,1,1015,Bachelor   ,22,28082,"[""Art Endorsement""]",38,2026-05-02 17:39:34
+11830,Astrid Gonet,Ontario-Montclair,1,0,1,2885,Bachelor   ,26,24685,"[""Kindergarten to 3rd Grage Certification""]",39,2026-05-02 17:39:34
+12630,Curry Eichkern,Ontario-Montclair,1,0,1,2605,Bachelor   ,12,23900,"[""Kindergarten to 3rd Grage Certification""]",40,2026-05-02 17:39:34
+10476,Sallie Killip,Beverly Hills Unified,1,0,1,1905,Bachelor   ,35,18962,"[""Kindergarten to 3rd Grage Certification""]",41,2026-05-02 17:39:34
+10970,Sue Morehouse,San Francisco Unified,1,0,1,3210,Bachelor   ,34,14258,"[""Music Endorsement""]",42,2026-05-02 17:39:34
+10657,Yvon Navarro-garcia,Beverly Hills Unified,1,0,1,1297,Bachelor   ,30,11820,"[""French Language Endorsement""]",43,2026-05-02 17:39:34

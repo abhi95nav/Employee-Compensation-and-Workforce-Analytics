@@ -1,0 +1,41 @@
+DISTRICT_NAME,rank,EMP_ID,EMPLOYEE_NAME,role,HIGHEST_EARNED_DEGREE,years_of_service,total_experience,REG_PAY,OVERTIME_PAY,OTHER_PAY,TOTAL_BENEFITS,total_compensation,_gold_ingested_at
+Beverly Hills Unified,1,10001,Francisca Arthur,Admin,Master     ,21,33,249000,0,6000,28807,283807,2026-05-02 17:38:54
+Beverly Hills Unified,2,11559,Shepperd Deangelo,Admin,Bachelor   ,26,30,89960,0,22065,9508,121533,2026-05-02 17:38:54
+Beverly Hills Unified,3,10667,Blinni Srivastava,Admin,Bachelor   ,29,34,102930,0,330,15874,119134,2026-05-02 17:38:54
+Beverly Hills Unified,4,12344,Robby Goodreau,Teacher,Master     ,32,37,105170,0,80,11183,116433,2026-05-02 17:38:54
+Beverly Hills Unified,5,10103,Chet Ouchida,Teacher,Master     ,32,37,92616,0,960,22563,116139,2026-05-02 17:38:54
+Beverly Hills Unified,6,11819,Sam Kasser,Teacher,Master     ,18,23,92188,0,4674,15302,112164,2026-05-02 17:38:54
+Beverly Hills Unified,7,12208,Yalonda Trischitta,Teacher,Bachelor   ,21,25,89220,0,0,21323,110543,2026-05-02 17:38:54
+Beverly Hills Unified,8,10755,Georgy Ghildyal,Teacher,Bachelor   ,15,20,93737,0,80,15055,108872,2026-05-02 17:38:54
+Beverly Hills Unified,9,12398,Tiff Samaranayake,Teacher,Bachelor   ,21,26,96673,0,0,10384,107057,2026-05-02 17:38:54
+Beverly Hills Unified,10,10385,Kirsteni Fearnley,Teacher,Bachelor   ,20,25,91880,0,0,14265,106145,2026-05-02 17:38:54
+Compton Unified,1,10002,Nannette Frondel,Admin,Master     ,29,41,241261,0,0,27124,268385,2026-05-02 17:38:54
+Compton Unified,2,12229,Elissa De,Admin,Master     ,16,22,125389,0,0,19602,144991,2026-05-02 17:38:54
+Compton Unified,3,10588,Alisun Lozada,Admin,Master     ,14,20,125063,0,0,16775,141838,2026-05-02 17:38:54
+Compton Unified,4,10610,Matilda Chowdhury,Admin,Bachelor   ,20,26,122741,0,0,16891,139632,2026-05-02 17:38:54
+Compton Unified,5,10309,Noelyn Spaziani,Admin,Bachelor   ,23,29,124065,0,0,13405,137470,2026-05-02 17:38:54
+Compton Unified,6,10874,Cathleen Jeffries,Admin,Bachelor   ,27,33,123403,0,0,13351,136754,2026-05-02 17:38:54
+Compton Unified,7,12231,Kathrine Hotopp,Admin,Bachelor   ,17,23,122720,0,0,13329,136049,2026-05-02 17:38:54
+Compton Unified,8,11222,Danyette Bonner,Admin,Bachelor   ,24,30,116092,0,0,18836,134928,2026-05-02 17:38:54
+Compton Unified,9,11410,Peter Dohrmann,Teacher,Doctorate  ,30,35,98499,14165,0,18957,131621,2026-05-02 17:38:54
+Compton Unified,10,11474,Valli Orfanos,Admin,Master     ,10,16,115441,0,0,16010,131451,2026-05-02 17:38:54
+Ontario-Montclair,1,10003,Vonni Oro,Admin,Doctorate  ,17,30,263655,0,133169,40336,437160,2026-05-02 17:38:54
+Ontario-Montclair,2,12657,Dane Loren,Admin,Master     ,17,24,132813,0,792,15498,149103,2026-05-02 17:38:54
+Ontario-Montclair,3,12946,Karney Zaragoza,Admin,Master     ,31,37,125009,0,792,22415,148216,2026-05-02 17:38:54
+Ontario-Montclair,4,13182,Anthony Zotti,Admin,Master     ,22,28,124828,0,792,22400,148020,2026-05-02 17:38:54
+Ontario-Montclair,5,11982,Irvine Hvatum,Admin,Bachelor   ,33,39,125898,0,792,15142,141832,2026-05-02 17:38:54
+Ontario-Montclair,6,10972,Alexandro Jeffries,Admin,Bachelor   ,23,29,123950,0,792,11981,136723,2026-05-02 17:38:54
+Ontario-Montclair,7,12468,Vince Angeli,Admin,Bachelor   ,21,27,112238,0,1116,21362,134716,2026-05-02 17:38:54
+Ontario-Montclair,8,11446,Arlina Hoppe,Admin,Bachelor   ,20,25,105355,0,0,20794,126149,2026-05-02 17:38:54
+Ontario-Montclair,9,11896,Seward Rumberger,Admin,Bachelor   ,10,16,113820,0,330,11797,125947,2026-05-02 17:38:54
+Ontario-Montclair,10,11599,Kitti Lanzarotta,Admin,Bachelor   ,33,39,113820,0,330,10254,124404,2026-05-02 17:38:54
+San Francisco Unified,1,10004,Carlos Calkins,Admin,Master     ,29,43,277678,0,4286,36551,318515,2026-05-02 17:38:54
+San Francisco Unified,2,10005,Farly Burkholder,Admin,Master     ,12,21,181597,0,33262,54476,269335,2026-05-02 17:38:54
+San Francisco Unified,3,12129,Jeth Zao,Admin,Bachelor   ,31,41,204646,0,6089,28320,239055,2026-05-02 17:38:54
+San Francisco Unified,4,12559,Gare Rozinov,Admin,Master     ,30,38,152656,0,1375,23453,177484,2026-05-02 17:38:54
+San Francisco Unified,5,12560,Nikolaos Hay,Admin,Master     ,29,35,126541,0,8115,21794,156450,2026-05-02 17:38:54
+San Francisco Unified,6,12934,Freeland Macmillan,Admin,Master     ,15,20,101440,0,26882,21203,149525,2026-05-02 17:38:54
+San Francisco Unified,7,13245,Guthrie Mei,Admin,Master     ,21,25,83191,799,23020,38235,145245,2026-05-02 17:38:54
+San Francisco Unified,8,11894,Tibold Doney,Admin,Bachelor   ,23,28,102928,0,20939,17820,141687,2026-05-02 17:38:54
+San Francisco Unified,9,12729,Francklyn Lozada,Admin,Bachelor   ,33,38,97123,0,21330,20367,138820,2026-05-02 17:38:54
+San Francisco Unified,10,12634,Karola Wilkening,Admin,Bachelor   ,21,25,80439,0,17298,36900,134637,2026-05-02 17:38:54

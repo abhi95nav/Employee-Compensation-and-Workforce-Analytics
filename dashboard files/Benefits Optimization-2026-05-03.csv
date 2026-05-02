@@ -1,0 +1,17 @@
+DISTRICT_NAME,benefits_flag,employee_count,avg_benefits_pct,total_benefits_spend,avg_compensation,_gold_ingested_at
+Beverly Hills Unified,High (20-30%),3,21.7,37026,57117.67,2026-05-02 17:39:27
+Beverly Hills Unified,Normal (10-20%),25,14.7,358437,100307.64,2026-05-02 17:39:27
+Beverly Hills Unified,Low (<10%),12,8.2,69805,67762.83,2026-05-02 17:39:27
+Beverly Hills Unified,No Benefits,1,0,0,11169,2026-05-02 17:39:27
+Compton Unified,High (20-30%),3,21.7,41720,64283.33,2026-05-02 17:39:27
+Compton Unified,Normal (10-20%),93,13.6,1217575,96508.84,2026-05-02 17:39:27
+Compton Unified,Low (<10%),20,7.7,143439,87475.85,2026-05-02 17:39:27
+Ontario-Montclair,Very High (>30%),2,31.2,34287,54818,2026-05-02 17:39:27
+Ontario-Montclair,High (20-30%),37,22.3,647807,79668.65,2026-05-02 17:39:27
+Ontario-Montclair,Normal (10-20%),78,15.5,1110171,92582.78,2026-05-02 17:39:27
+Ontario-Montclair,Low (<10%),25,8.1,218883,105578.48,2026-05-02 17:39:27
+San Francisco Unified,Very High (>30%),20,35.1,461672,66229.8,2026-05-02 17:39:27
+San Francisco Unified,High (20-30%),43,25,860706,78797.44,2026-05-02 17:39:27
+San Francisco Unified,Normal (10-20%),296,16.2,3917592,83160.98,2026-05-02 17:39:27
+San Francisco Unified,Low (<10%),38,8.5,191814,58592.29,2026-05-02 17:39:27
+San Francisco Unified,No Benefits,5,0,0,17676.6,2026-05-02 17:39:27

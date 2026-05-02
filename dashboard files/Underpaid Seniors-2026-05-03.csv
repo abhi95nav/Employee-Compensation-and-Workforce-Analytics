@@ -1,0 +1,293 @@
+EMP_ID,EMPLOYEE_NAME,DISTRICT_NAME,years_of_service,total_experience,seniority_level,HIGHEST_EARNED_DEGREE,IS_ADMIN,IS_TEACHER,total_compensation,district_median_comp,comp_gap_vs_median,retention_risk,_gold_ingested_at
+10797,Tedd Ivanciw,Compton Unified,21,22,Senior,Bachelor   ,TRUE,FALSE,10582,96901,-86319,Critical,2026-05-02 17:39:15
+12448,Jocelin Stamps,Beverly Hills Unified,27,28,Senior,Bachelor   ,FALSE,TRUE,11169,96623,-85454,Critical,2026-05-02 17:39:15
+10657,Yvon Navarro-garcia,Beverly Hills Unified,30,31,Senior,Bachelor   ,FALSE,TRUE,11820,96623,-84803,Critical,2026-05-02 17:39:15
+10184,Giovanna Coppi,Ontario-Montclair,26,27,Senior,Bachelor   ,FALSE,TRUE,15532,98585,-83053,Critical,2026-05-02 17:39:15
+12333,Gretta O'malley,Ontario-Montclair,32,33,Senior,High School,FALSE,FALSE,18022,98585,-80563,Critical,2026-05-02 17:39:15
+11881,Cal Hay,Beverly Hills Unified,28,29,Senior,High School,FALSE,FALSE,16683,96623,-79940,Critical,2026-05-02 17:39:15
+10476,Sallie Killip,Beverly Hills Unified,35,36,Senior,Bachelor   ,FALSE,TRUE,18962,96623,-77661,Critical,2026-05-02 17:39:15
+10834,Jesus Cordova,Compton Unified,28,29,Senior,Bachelor   ,FALSE,TRUE,21420,96901,-75481,Critical,2026-05-02 17:39:15
+11830,Astrid Gonet,Ontario-Montclair,26,27,Senior,Bachelor   ,FALSE,TRUE,24685,98585,-73900,Critical,2026-05-02 17:39:15
+12000,Amelia Matarazzo,Compton Unified,30,31,Senior,Bachelor   ,FALSE,TRUE,23177,96901,-73724,Critical,2026-05-02 17:39:15
+12661,Reuven Van,Ontario-Montclair,26,27,Senior,Bachelor   ,TRUE,FALSE,25476,98585,-73109,Critical,2026-05-02 17:39:15
+10565,Myrtle Cline,Compton Unified,24,25,Senior,Bachelor   ,FALSE,TRUE,26248,96901,-70653,Critical,2026-05-02 17:39:15
+11343,Brennen Mulloy,Beverly Hills Unified,23,24,Senior,Bachelor   ,FALSE,TRUE,28025,96623,-68598,Critical,2026-05-02 17:39:15
+10793,Angelita Haring,Ontario-Montclair,32,33,Senior,Bachelor   ,FALSE,TRUE,30820,98585,-67765,Critical,2026-05-02 17:39:15
+12494,Dell Husbands,Compton Unified,20,21,Senior,Associate  ,FALSE,FALSE,29570,96901,-67331,Critical,2026-05-02 17:39:15
+11403,Hadrian Jordan,Compton Unified,20,21,Senior,Bachelor   ,FALSE,TRUE,29692,96901,-67209,Critical,2026-05-02 17:39:15
+10765,Sapphire Edgerton,Compton Unified,26,27,Senior,Bachelor   ,FALSE,TRUE,30004,96901,-66897,Critical,2026-05-02 17:39:15
+10098,Emalee Guss,San Francisco Unified,22,23,Senior,Bachelor   ,FALSE,TRUE,13711,79652,-65941,Critical,2026-05-02 17:39:15
+12015,Ange Kimura,Ontario-Montclair,23,24,Senior,High School,FALSE,FALSE,32729,98585,-65856,Critical,2026-05-02 17:39:15
+11115,Aguste Soltan,San Francisco Unified,15,16,Mid-Senior,Bachelor   ,FALSE,TRUE,13846,79652,-65806,Critical,2026-05-02 17:39:15
+10970,Sue Morehouse,San Francisco Unified,34,35,Senior,Bachelor   ,FALSE,TRUE,14258,79652,-65394,Critical,2026-05-02 17:39:15
+12611,Ruthie Balderson,Ontario-Montclair,18,19,Mid-Senior,Bachelor   ,FALSE,TRUE,33760,98585,-64825,Critical,2026-05-02 17:39:15
+13168,Katerine Zaitlin,San Francisco Unified,23,24,Senior,Bachelor   ,FALSE,TRUE,15107,79652,-64545,Critical,2026-05-02 17:39:15
+10016,Hayley Sands,Ontario-Montclair,29,30,Senior,Bachelor   ,FALSE,TRUE,34688,98585,-63897,Critical,2026-05-02 17:39:15
+10763,Humfrid Vatter,San Francisco Unified,19,20,Mid-Senior,Bachelor   ,FALSE,TRUE,16246,79652,-63406,Critical,2026-05-02 17:39:15
+10721,Dorey Sugrue,San Francisco Unified,22,23,Senior,Bachelor   ,TRUE,FALSE,16520,79652,-63132,Critical,2026-05-02 17:39:15
+10722,Fredric Gram,San Francisco Unified,22,23,Senior,Bachelor   ,TRUE,FALSE,16520,79652,-63132,Critical,2026-05-02 17:39:15
+10069,Cooper Bordignon,San Francisco Unified,15,16,Mid-Senior,Bachelor   ,FALSE,TRUE,16823,79652,-62829,Critical,2026-05-02 17:39:15
+12459,Pierre Bierman,San Francisco Unified,30,31,Senior,Bachelor   ,FALSE,TRUE,19050,79652,-60602,Critical,2026-05-02 17:39:15
+11210,Kipp French,San Francisco Unified,29,30,Senior,Bachelor   ,FALSE,TRUE,19309,79652,-60343,Critical,2026-05-02 17:39:15
+12243,Winslow Brentari,Ontario-Montclair,20,21,Senior,Bachelor   ,FALSE,TRUE,38393,98585,-60192,Critical,2026-05-02 17:39:15
+12207,Thomasa Smigelski,San Francisco Unified,34,35,Senior,Bachelor   ,FALSE,TRUE,19471,79652,-60181,Critical,2026-05-02 17:39:15
+10441,Olimpia Sprat,San Francisco Unified,18,19,Mid-Senior,Bachelor   ,FALSE,TRUE,20314,79652,-59338,Critical,2026-05-02 17:39:15
+10239,Oriana Remington,San Francisco Unified,20,21,Senior,Bachelor   ,FALSE,TRUE,20343,79652,-59309,Critical,2026-05-02 17:39:15
+11309,Imogen Jeffries,Beverly Hills Unified,33,35,Senior,Bachelor   ,FALSE,TRUE,37435,96623,-59188,Critical,2026-05-02 17:39:15
+12254,Maud Gu,San Francisco Unified,20,21,Senior,Bachelor   ,FALSE,TRUE,21263,79652,-58389,Critical,2026-05-02 17:39:15
+12932,Delainey Houston,San Francisco Unified,22,23,Senior,Bachelor   ,FALSE,TRUE,22623,79652,-57029,Critical,2026-05-02 17:39:15
+13114,Cecily Sadeghpour,Ontario-Montclair,31,33,Senior,Bachelor   ,FALSE,TRUE,42692,98585,-55893,Critical,2026-05-02 17:39:15
+11866,Rosabelle Guidi,San Francisco Unified,16,17,Mid-Senior,Bachelor   ,FALSE,TRUE,24343,79652,-55309,Critical,2026-05-02 17:39:15
+12085,Tris Gonet,San Francisco Unified,17,18,Mid-Senior,Bachelor   ,FALSE,TRUE,24491,79652,-55161,Critical,2026-05-02 17:39:15
+10899,Donavon Lawrence,San Francisco Unified,34,35,Senior,Bachelor   ,FALSE,TRUE,24819,79652,-54833,Critical,2026-05-02 17:39:15
+11304,Edwin Bourland,Ontario-Montclair,34,36,Senior,Bachelor   ,FALSE,TRUE,43756,98585,-54829,Critical,2026-05-02 17:39:15
+10602,Timothy Beecher,San Francisco Unified,16,17,Mid-Senior,Bachelor   ,FALSE,TRUE,25154,79652,-54498,Critical,2026-05-02 17:39:15
+11790,Marcelle Marashian,Ontario-Montclair,31,32,Senior,High School,FALSE,FALSE,44121,98585,-54464,Critical,2026-05-02 17:39:15
+12488,Estelle Isaacs,San Francisco Unified,17,18,Mid-Senior,Bachelor   ,FALSE,TRUE,25274,79652,-54378,Critical,2026-05-02 17:39:15
+11628,Wit Mcclintock,Ontario-Montclair,21,22,Senior,Bachelor   ,FALSE,TRUE,44457,98585,-54128,Critical,2026-05-02 17:39:15
+12076,Steffi Fitzgerald,Compton Unified,20,22,Senior,Bachelor   ,FALSE,TRUE,42939,96901,-53962,Critical,2026-05-02 17:39:15
+10379,Martina Platais,San Francisco Unified,24,25,Senior,Bachelor   ,FALSE,TRUE,25784,79652,-53868,Critical,2026-05-02 17:39:15
+11316,Ernestus Delvecchio,Ontario-Montclair,26,28,Senior,Bachelor   ,FALSE,TRUE,45238,98585,-53347,Critical,2026-05-02 17:39:15
+11470,Saundra Pintus,San Francisco Unified,19,20,Mid-Senior,Bachelor   ,FALSE,TRUE,26423,79652,-53229,Critical,2026-05-02 17:39:15
+11174,Vilma Bird,San Francisco Unified,33,34,Senior,Bachelor   ,FALSE,TRUE,27369,79652,-52283,Critical,2026-05-02 17:39:15
+10259,Forest Aghayan,Ontario-Montclair,34,36,Senior,Bachelor   ,TRUE,FALSE,46330,98585,-52255,Critical,2026-05-02 17:39:15
+13135,Monika Ephron,San Francisco Unified,22,23,Senior,Bachelor   ,FALSE,TRUE,28082,79652,-51570,Critical,2026-05-02 17:39:15
+13166,Bellina Backus,Ontario-Montclair,23,25,Senior,Bachelor   ,FALSE,TRUE,47795,98585,-50790,Critical,2026-05-02 17:39:15
+12493,Nye Ando,San Francisco Unified,16,17,Mid-Senior,Bachelor   ,FALSE,TRUE,29512,79652,-50140,Critical,2026-05-02 17:39:15
+13210,Tabatha Zimmer,San Francisco Unified,26,27,Senior,Bachelor   ,FALSE,TRUE,29581,79652,-50071,Critical,2026-05-02 17:39:15
+12020,Sara-ann Meccariello,San Francisco Unified,33,34,Senior,High School,FALSE,FALSE,29594,79652,-50058,Critical,2026-05-02 17:39:15
+11162,Bridget Routledge,San Francisco Unified,28,29,Senior,Bachelor   ,FALSE,TRUE,29656,79652,-49996,Critical,2026-05-02 17:39:15
+13029,Luci Riddle,San Francisco Unified,29,30,Senior,Bachelor   ,FALSE,TRUE,30645,79652,-49007,Critical,2026-05-02 17:39:15
+12245,Nevile Spognardi,San Francisco Unified,27,28,Senior,Bachelor   ,FALSE,TRUE,30784,79652,-48868,Critical,2026-05-02 17:39:15
+10257,Herrick Viens,San Francisco Unified,20,21,Senior,Bachelor   ,FALSE,TRUE,30926,79652,-48726,Critical,2026-05-02 17:39:15
+11275,Flor Pulliam,San Francisco Unified,21,22,Senior,Bachelor   ,TRUE,FALSE,30978,79652,-48674,Critical,2026-05-02 17:39:15
+10854,Margalo Lichten,San Francisco Unified,26,27,Senior,Bachelor   ,FALSE,TRUE,31108,79652,-48544,Critical,2026-05-02 17:39:15
+10618,Ram Lillis,San Francisco Unified,30,31,Senior,Bachelor   ,FALSE,TRUE,31283,79652,-48369,Critical,2026-05-02 17:39:15
+10068,Adolph Metaxas,San Francisco Unified,17,18,Mid-Senior,Bachelor   ,FALSE,TRUE,31973,79652,-47679,Critical,2026-05-02 17:39:15
+11624,Coretta Stephens,Ontario-Montclair,20,22,Senior,Bachelor   ,FALSE,TRUE,50962,98585,-47623,Critical,2026-05-02 17:39:15
+11948,Hobie Gloucester,Ontario-Montclair,32,34,Senior,Bachelor   ,FALSE,TRUE,51182,98585,-47403,Critical,2026-05-02 17:39:15
+12803,Percival Tatar,San Francisco Unified,27,28,Senior,Bachelor   ,FALSE,TRUE,32554,79652,-47098,Critical,2026-05-02 17:39:15
+10088,Essy Baraka,Beverly Hills Unified,32,34,Senior,Bachelor   ,FALSE,TRUE,50068,96623,-46555,Critical,2026-05-02 17:39:15
+12629,Neil Coveney,San Francisco Unified,31,32,Senior,Bachelor   ,FALSE,TRUE,34018,79652,-45634,Critical,2026-05-02 17:39:15
+13170,Tori Husbands,San Francisco Unified,25,26,Senior,High School,FALSE,FALSE,34378,79652,-45274,Critical,2026-05-02 17:39:15
+11071,Zack Agterberg,Compton Unified,28,30,Senior,Bachelor   ,FALSE,TRUE,51736,96901,-45165,Critical,2026-05-02 17:39:15
+10351,Tiffi Goldberg,Ontario-Montclair,17,19,Mid-Senior,Bachelor   ,FALSE,TRUE,54099,98585,-44486,Critical,2026-05-02 17:39:15
+10705,Myrtle Farrow,Beverly Hills Unified,17,19,Mid-Senior,High School,FALSE,FALSE,53170,96623,-43453,Critical,2026-05-02 17:39:15
+11491,Durant Witten,Compton Unified,19,21,Mid-Senior,Bachelor   ,TRUE,FALSE,53632,96901,-43269,Critical,2026-05-02 17:39:15
+11994,Eddie Kimura,San Francisco Unified,17,18,Mid-Senior,Bachelor   ,FALSE,FALSE,36617,79652,-43035,Critical,2026-05-02 17:39:15
+11168,Jecho Deitcher,Ontario-Montclair,15,17,Mid-Senior,High School,FALSE,FALSE,56034,98585,-42551,Critical,2026-05-02 17:39:15
+11326,Klemens Hotchkiss,Beverly Hills Unified,32,34,Senior,Bachelor   ,FALSE,FALSE,54442,96623,-42181,Critical,2026-05-02 17:39:15
+12756,Danila Grass,San Francisco Unified,30,31,Senior,Bachelor   ,FALSE,TRUE,38132,79652,-41520,Critical,2026-05-02 17:39:15
+13275,Hilde O'meara,San Francisco Unified,34,35,Senior,Bachelor   ,FALSE,FALSE,38467,79652,-41185,Critical,2026-05-02 17:39:15
+11376,Lane Eckehard,San Francisco Unified,25,26,Senior,Bachelor   ,FALSE,TRUE,38645,79652,-41007,Critical,2026-05-02 17:39:15
+12895,Benedick Mc,Ontario-Montclair,34,36,Senior,Bachelor   ,FALSE,TRUE,58454,98585,-40131,Critical,2026-05-02 17:39:15
+10033,Merry Schott,San Francisco Unified,33,34,Senior,Bachelor   ,FALSE,TRUE,40897,79652,-38755,Critical,2026-05-02 17:39:15
+12251,Connie Martens,Ontario-Montclair,17,19,Mid-Senior,Bachelor   ,FALSE,FALSE,60429,98585,-38156,Critical,2026-05-02 17:39:15
+10700,Jephthah Bourdelle,Beverly Hills Unified,30,33,Senior,Bachelor   ,TRUE,FALSE,58587,96623,-38036,Critical,2026-05-02 17:39:15
+10973,Abe Mcveigh,Compton Unified,17,20,Mid-Senior,Bachelor   ,TRUE,FALSE,59293,96901,-37608,Critical,2026-05-02 17:39:15
+11543,Araldo Maciver,San Francisco Unified,15,17,Mid-Senior,Bachelor   ,FALSE,TRUE,43172,79652,-36480,Critical,2026-05-02 17:39:15
+10328,Percival Pinca,Ontario-Montclair,27,29,Senior,Bachelor   ,TRUE,FALSE,62252,98585,-36333,Critical,2026-05-02 17:39:15
+11709,Archaimbaud Nadal-ginard,San Francisco Unified,23,24,Senior,Bachelor   ,TRUE,FALSE,43606,79652,-36046,Critical,2026-05-02 17:39:15
+11225,Marianna Horah,Compton Unified,16,19,Mid-Senior,Bachelor   ,FALSE,TRUE,61114,96901,-35787,Critical,2026-05-02 17:39:15
+10587,Korry Piccinato,San Francisco Unified,16,17,Mid-Senior,Bachelor   ,FALSE,TRUE,43883,79652,-35769,Critical,2026-05-02 17:39:15
+10015,Skip Krezel,San Francisco Unified,29,30,Senior,Bachelor   ,FALSE,TRUE,43911,79652,-35741,Critical,2026-05-02 17:39:15
+13216,Krysta Tomford,Ontario-Montclair,24,27,Senior,Bachelor   ,FALSE,TRUE,63388,98585,-35197,Critical,2026-05-02 17:39:15
+10702,Sophronia Crews,Ontario-Montclair,28,30,Senior,Bachelor   ,FALSE,TRUE,63818,98585,-34767,Critical,2026-05-02 17:39:15
+11328,Martainn Lecar,Ontario-Montclair,27,30,Senior,Bachelor   ,FALSE,TRUE,63861,98585,-34724,Critical,2026-05-02 17:39:15
+12238,Benn Westfall,Compton Unified,21,24,Senior,Bachelor   ,TRUE,FALSE,62927,96901,-33974,Critical,2026-05-02 17:39:15
+11800,Bree Krezel,San Francisco Unified,21,23,Senior,Bachelor   ,FALSE,TRUE,46112,79652,-33540,Critical,2026-05-02 17:39:15
+10967,Marti Shatkin,Compton Unified,27,30,Senior,Bachelor   ,TRUE,FALSE,63677,96901,-33224,Critical,2026-05-02 17:39:15
+13225,Alwin Roemer,Beverly Hills Unified,21,23,Senior,Bachelor   ,FALSE,FALSE,63741,96623,-32882,Critical,2026-05-02 17:39:15
+11468,Goraud Geribo,San Francisco Unified,27,28,Senior,Bachelor   ,FALSE,TRUE,46790,79652,-32862,Critical,2026-05-02 17:39:15
+13251,Dorine Fortunato,Ontario-Montclair,16,19,Mid-Senior,Bachelor   ,FALSE,TRUE,65972,98585,-32613,Critical,2026-05-02 17:39:15
+11652,Kristi Hamada,San Francisco Unified,17,19,Mid-Senior,Bachelor   ,FALSE,FALSE,47694,79652,-31958,Critical,2026-05-02 17:39:15
+12566,Alys Jetty,San Francisco Unified,26,28,Senior,Bachelor   ,TRUE,FALSE,47717,79652,-31935,Critical,2026-05-02 17:39:15
+11030,Tarra Amar-sanchez,San Francisco Unified,34,36,Senior,Bachelor   ,FALSE,TRUE,48444,79652,-31208,Critical,2026-05-02 17:39:15
+11105,Taryn Cosman,San Francisco Unified,17,19,Mid-Senior,Bachelor   ,FALSE,TRUE,48646,79652,-31006,Critical,2026-05-02 17:39:15
+12802,Nyssa Boyce,San Francisco Unified,31,33,Senior,Bachelor   ,FALSE,TRUE,49289,79652,-30363,Critical,2026-05-02 17:39:15
+11000,Gaile Helgerson,San Francisco Unified,15,17,Mid-Senior,Bachelor   ,TRUE,FALSE,49626,79652,-30026,Critical,2026-05-02 17:39:15
+13254,Genevra Picardi,San Francisco Unified,25,26,Senior,High School,FALSE,FALSE,49899,79652,-29753,High,2026-05-02 17:39:15
+12011,Leigh Badwey,San Francisco Unified,22,24,Senior,Bachelor   ,FALSE,TRUE,50298,79652,-29354,High,2026-05-02 17:39:15
+11611,Gregoire Drum,Ontario-Montclair,16,18,Mid-Senior,Bachelor   ,FALSE,TRUE,69446,98585,-29139,High,2026-05-02 17:39:15
+10822,Waylin Cheng,San Francisco Unified,21,22,Senior,Bachelor   ,FALSE,TRUE,50620,79652,-29032,High,2026-05-02 17:39:15
+11449,Rebecca Halberstadt,Ontario-Montclair,15,18,Mid-Senior,Bachelor   ,TRUE,FALSE,69948,98585,-28637,High,2026-05-02 17:39:15
+12393,Carmine Mankiw,San Francisco Unified,30,32,Senior,Bachelor   ,FALSE,TRUE,51431,79652,-28221,High,2026-05-02 17:39:15
+10240,Issiah Moody,Ontario-Montclair,17,19,Mid-Senior,Bachelor   ,FALSE,FALSE,70463,98585,-28122,High,2026-05-02 17:39:15
+11199,Harmony Gambale,San Francisco Unified,33,35,Senior,Bachelor   ,FALSE,TRUE,53305,79652,-26347,High,2026-05-02 17:39:15
+10228,Valencia Feynman,Compton Unified,30,33,Senior,Bachelor   ,TRUE,FALSE,71335,96901,-25566,High,2026-05-02 17:39:15
+10861,Miran Heuer,San Francisco Unified,17,19,Mid-Senior,Bachelor   ,TRUE,FALSE,54124,79652,-25528,High,2026-05-02 17:39:15
+11135,Anders Yegul,San Francisco Unified,20,22,Senior,Bachelor   ,FALSE,TRUE,54265,79652,-25387,High,2026-05-02 17:39:15
+11552,Towny Wallington,San Francisco Unified,24,26,Senior,Bachelor   ,FALSE,TRUE,54907,79652,-24745,High,2026-05-02 17:39:15
+12032,Michaelina Hafrey,San Francisco Unified,32,34,Senior,Bachelor   ,FALSE,TRUE,54934,79652,-24718,High,2026-05-02 17:39:15
+11730,Lilah Waggener,San Francisco Unified,28,30,Senior,Bachelor   ,FALSE,TRUE,55088,79652,-24564,High,2026-05-02 17:39:15
+10172,Ludovico Kissida,San Francisco Unified,25,27,Senior,Bachelor   ,TRUE,FALSE,55110,79652,-24542,High,2026-05-02 17:39:15
+12420,Whitman Christofi,Beverly Hills Unified,28,31,Senior,Bachelor   ,FALSE,TRUE,72590,96623,-24033,High,2026-05-02 17:39:15
+13100,Alec Viveros-aguilera,San Francisco Unified,24,26,Senior,Bachelor   ,FALSE,TRUE,56605,79652,-23047,High,2026-05-02 17:39:15
+13080,Cathee Tekin,San Francisco Unified,24,26,Senior,Bachelor   ,FALSE,TRUE,56686,79652,-22966,High,2026-05-02 17:39:15
+10583,Zara Yafeh,San Francisco Unified,19,21,Mid-Senior,Bachelor   ,FALSE,TRUE,57150,79652,-22502,High,2026-05-02 17:39:15
+12043,Karlens Marchbanks,San Francisco Unified,25,27,Senior,Bachelor   ,TRUE,FALSE,57324,79652,-22328,High,2026-05-02 17:39:15
+11095,Lucius Sekoni,Compton Unified,34,37,Senior,Bachelor   ,FALSE,TRUE,75038,96901,-21863,High,2026-05-02 17:39:15
+10768,Glyn Tonini,San Francisco Unified,22,23,Senior,High School,FALSE,FALSE,58816,79652,-20836,High,2026-05-02 17:39:15
+10391,Dani Waring,Ontario-Montclair,30,33,Senior,Bachelor   ,FALSE,TRUE,78014,98585,-20571,High,2026-05-02 17:39:15
+11539,Ediva Satumo,Ontario-Montclair,19,22,Mid-Senior,Bachelor   ,FALSE,TRUE,78257,98585,-20328,High,2026-05-02 17:39:15
+11817,Daveta Rosa,San Francisco Unified,16,18,Mid-Senior,Bachelor   ,TRUE,FALSE,59448,79652,-20204,High,2026-05-02 17:39:15
+12233,Milka Fernandez,San Francisco Unified,15,17,Mid-Senior,Bachelor   ,FALSE,TRUE,59463,79652,-20189,High,2026-05-02 17:39:15
+13065,Olga Whitla,San Francisco Unified,16,18,Mid-Senior,Bachelor   ,FALSE,TRUE,59731,79652,-19921,High,2026-05-02 17:39:15
+13184,Salmon Gillevet,Compton Unified,26,29,Senior,Bachelor   ,FALSE,TRUE,77009,96901,-19892,High,2026-05-02 17:39:15
+11344,Vin Alesina,Compton Unified,31,34,Senior,Bachelor   ,TRUE,FALSE,77208,96901,-19693,High,2026-05-02 17:39:15
+11875,Malva Dower,San Francisco Unified,18,20,Mid-Senior,Bachelor   ,FALSE,TRUE,60056,79652,-19596,High,2026-05-02 17:39:15
+11479,Gayle Matera,Ontario-Montclair,25,28,Senior,Bachelor   ,FALSE,TRUE,79041,98585,-19544,High,2026-05-02 17:39:15
+12917,Guthrie Corfas,San Francisco Unified,29,31,Senior,Bachelor   ,FALSE,TRUE,60226,79652,-19426,High,2026-05-02 17:39:15
+12103,Ira Sicilia,San Francisco Unified,23,25,Senior,Bachelor   ,FALSE,TRUE,60609,79652,-19043,High,2026-05-02 17:39:15
+11967,Gideon Rochon,Compton Unified,23,26,Senior,Bachelor   ,FALSE,TRUE,78012,96901,-18889,High,2026-05-02 17:39:15
+12608,Freeland Dahl,San Francisco Unified,35,37,Senior,Bachelor   ,FALSE,TRUE,61290,79652,-18362,High,2026-05-02 17:39:15
+12813,Darbie Brody,Compton Unified,29,32,Senior,Bachelor   ,TRUE,FALSE,78576,96901,-18325,High,2026-05-02 17:39:15
+11762,Rhetta Gottardo,San Francisco Unified,15,17,Mid-Senior,Bachelor   ,FALSE,TRUE,61382,79652,-18270,High,2026-05-02 17:39:15
+12319,Korey Mccrickerd,Ontario-Montclair,32,35,Senior,Bachelor   ,FALSE,TRUE,80685,98585,-17900,High,2026-05-02 17:39:15
+11938,Prudi Coffey,Compton Unified,32,35,Senior,Bachelor   ,FALSE,TRUE,79268,96901,-17633,High,2026-05-02 17:39:15
+12109,Essa Perrault,San Francisco Unified,16,18,Mid-Senior,Bachelor   ,FALSE,TRUE,62060,79652,-17592,High,2026-05-02 17:39:15
+10049,Eldin Capozzoli,San Francisco Unified,22,24,Senior,High School,FALSE,FALSE,62204,79652,-17448,High,2026-05-02 17:39:15
+10852,Koo Callow,San Francisco Unified,30,32,Senior,Bachelor   ,FALSE,TRUE,62423,79652,-17229,High,2026-05-02 17:39:15
+10091,Gilburt Bruhn,Compton Unified,29,32,Senior,Bachelor   ,FALSE,TRUE,79900,96901,-17001,High,2026-05-02 17:39:15
+12035,Raimund Doricent,San Francisco Unified,22,24,Senior,Bachelor   ,FALSE,TRUE,62732,79652,-16920,High,2026-05-02 17:39:15
+10210,Wyndham Brand,San Francisco Unified,32,34,Senior,Bachelor   ,FALSE,TRUE,62797,79652,-16855,High,2026-05-02 17:39:15
+10686,Jojo Moustaid,San Francisco Unified,19,21,Mid-Senior,Bachelor   ,FALSE,TRUE,62878,79652,-16774,High,2026-05-02 17:39:15
+12646,Mark Nichipor,San Francisco Unified,19,21,Mid-Senior,Bachelor   ,FALSE,TRUE,62945,79652,-16707,High,2026-05-02 17:39:15
+12432,Binny Maestas,San Francisco Unified,26,28,Senior,Bachelor   ,FALSE,TRUE,63247,79652,-16405,High,2026-05-02 17:39:15
+10140,Tamas Lans,Compton Unified,19,23,Mid-Senior,Bachelor   ,FALSE,TRUE,80531,96901,-16370,High,2026-05-02 17:39:15
+10364,Lyda Voligny,Compton Unified,31,34,Senior,Bachelor   ,FALSE,TRUE,80648,96901,-16253,High,2026-05-02 17:39:15
+12791,Massimo Chaudhry,San Francisco Unified,22,24,Senior,Bachelor   ,FALSE,TRUE,63421,79652,-16231,High,2026-05-02 17:39:15
+11999,Candace Doricent,San Francisco Unified,23,25,Senior,Bachelor   ,FALSE,TRUE,63613,79652,-16039,High,2026-05-02 17:39:15
+11323,Dyna Stephenson,Compton Unified,30,34,Senior,Bachelor   ,FALSE,TRUE,81046,96901,-15855,High,2026-05-02 17:39:15
+11998,Myrilla Marais,San Francisco Unified,19,21,Mid-Senior,Bachelor   ,FALSE,TRUE,63883,79652,-15769,High,2026-05-02 17:39:15
+11922,Kippy Nichipor,San Francisco Unified,30,32,Senior,Bachelor   ,FALSE,TRUE,63937,79652,-15715,High,2026-05-02 17:39:15
+10564,Louisa Golden,San Francisco Unified,31,33,Senior,Bachelor   ,FALSE,TRUE,64066,79652,-15586,High,2026-05-02 17:39:15
+10241,Gavin Verdirosi,San Francisco Unified,28,30,Senior,High School,FALSE,FALSE,64237,79652,-15415,High,2026-05-02 17:39:15
+11010,Patric Hyatt,Ontario-Montclair,21,25,Senior,Bachelor   ,FALSE,TRUE,83288,98585,-15297,High,2026-05-02 17:39:15
+10155,Clerkclaude Southey,San Francisco Unified,29,31,Senior,Bachelor   ,FALSE,TRUE,65566,79652,-14086,Medium,2026-05-02 17:39:15
+12931,Nathanial Mchale,San Francisco Unified,20,22,Senior,Bachelor   ,FALSE,TRUE,65583,79652,-14069,Medium,2026-05-02 17:39:15
+10388,Cassaundra Blanchette,Ontario-Montclair,32,35,Senior,Bachelor   ,FALSE,TRUE,84856,98585,-13729,Medium,2026-05-02 17:39:15
+12753,Willi Prestwich,San Francisco Unified,18,21,Mid-Senior,Bachelor   ,FALSE,TRUE,66171,79652,-13481,Medium,2026-05-02 17:39:15
+12159,Margie Kranzer,San Francisco Unified,26,27,Senior,High School,FALSE,FALSE,66315,79652,-13337,Medium,2026-05-02 17:39:15
+12928,Spencer Lacount,San Francisco Unified,26,28,Senior,Bachelor   ,FALSE,TRUE,66324,79652,-13328,Medium,2026-05-02 17:39:15
+12389,Vi Crane,San Francisco Unified,16,18,Mid-Senior,Bachelor   ,FALSE,TRUE,66340,79652,-13312,Medium,2026-05-02 17:39:15
+12637,Agosto Lyons,Compton Unified,17,21,Mid-Senior,Bachelor   ,FALSE,TRUE,83970,96901,-12931,Medium,2026-05-02 17:39:15
+11541,Candace Staines,San Francisco Unified,34,37,Senior,Bachelor   ,FALSE,TRUE,66789,79652,-12863,Medium,2026-05-02 17:39:15
+11727,Sax Foley,Compton Unified,15,19,Mid-Senior,Bachelor   ,FALSE,TRUE,84047,96901,-12854,Medium,2026-05-02 17:39:15
+12049,Sonya Baboolal,Ontario-Montclair,35,39,Senior,Bachelor   ,FALSE,TRUE,85761,98585,-12824,Medium,2026-05-02 17:39:15
+13263,Walliw Applegate,San Francisco Unified,29,31,Senior,Bachelor   ,FALSE,TRUE,66898,79652,-12754,Medium,2026-05-02 17:39:15
+10397,Lori Barrant,Beverly Hills Unified,19,23,Mid-Senior,Bachelor   ,FALSE,TRUE,83919,96623,-12704,Medium,2026-05-02 17:39:15
+10079,Correy Grusby,Compton Unified,19,23,Mid-Senior,Bachelor   ,FALSE,TRUE,84207,96901,-12694,Medium,2026-05-02 17:39:15
+10915,Mario Frondel,San Francisco Unified,33,36,Senior,Bachelor   ,FALSE,TRUE,66968,79652,-12684,Medium,2026-05-02 17:39:15
+11728,Catrina Conklin,Beverly Hills Unified,17,21,Mid-Senior,Bachelor   ,FALSE,TRUE,84037,96623,-12586,Medium,2026-05-02 17:39:15
+10042,Anatollo Gold,San Francisco Unified,30,31,Senior,Bachelor   ,FALSE,TRUE,67328,79652,-12324,Medium,2026-05-02 17:39:15
+11370,Jaime Battson,Compton Unified,16,20,Mid-Senior,Bachelor   ,FALSE,TRUE,84619,96901,-12282,Medium,2026-05-02 17:39:15
+11260,Sonia Severence,San Francisco Unified,15,17,Mid-Senior,Bachelor   ,FALSE,TRUE,67527,79652,-12125,Medium,2026-05-02 17:39:15
+10830,Magda Ilan,San Francisco Unified,32,34,Senior,Bachelor   ,FALSE,TRUE,67556,79652,-12096,Medium,2026-05-02 17:39:15
+10366,Titus Burkholder,San Francisco Unified,30,32,Senior,Bachelor   ,FALSE,TRUE,67672,79652,-11980,Medium,2026-05-02 17:39:15
+12816,Amie Twiraga,San Francisco Unified,30,32,Senior,Bachelor   ,FALSE,TRUE,67875,79652,-11777,Medium,2026-05-02 17:39:15
+12522,Jaime Westfall,San Francisco Unified,33,35,Senior,Bachelor   ,TRUE,FALSE,67888,79652,-11764,Medium,2026-05-02 17:39:15
+12845,Chrotoem Hillsbery,San Francisco Unified,28,30,Senior,Bachelor   ,FALSE,TRUE,67960,79652,-11692,Medium,2026-05-02 17:39:15
+10654,Donny O'malley,San Francisco Unified,30,32,Senior,Bachelor   ,FALSE,TRUE,67995,79652,-11657,Medium,2026-05-02 17:39:15
+11118,Case Loeb,San Francisco Unified,34,36,Senior,Bachelor   ,FALSE,TRUE,68170,79652,-11482,Medium,2026-05-02 17:39:15
+11373,Consalve Samadi,San Francisco Unified,17,19,Mid-Senior,Bachelor   ,FALSE,TRUE,68263,79652,-11389,Medium,2026-05-02 17:39:15
+11334,Mehetabel Berezovski,San Francisco Unified,21,23,Senior,High School,FALSE,FALSE,68287,79652,-11365,Medium,2026-05-02 17:39:15
+12552,Reg Yurtsever,San Francisco Unified,33,35,Senior,Bachelor   ,FALSE,TRUE,68373,79652,-11279,Medium,2026-05-02 17:39:15
+12316,Sigfried Mcgeoch,San Francisco Unified,33,36,Senior,Bachelor   ,FALSE,TRUE,68507,79652,-11145,Medium,2026-05-02 17:39:15
+11296,Eli Holowinsky,San Francisco Unified,22,24,Senior,High School,FALSE,FALSE,68569,79652,-11083,Medium,2026-05-02 17:39:15
+10919,Hobey Mcdonnell,San Francisco Unified,26,28,Senior,Bachelor   ,FALSE,TRUE,68662,79652,-10990,Medium,2026-05-02 17:39:15
+10539,Todd Sugino,San Francisco Unified,32,34,Senior,Bachelor   ,FALSE,TRUE,68690,79652,-10962,Medium,2026-05-02 17:39:15
+10437,Teri Schucany,San Francisco Unified,23,26,Senior,Bachelor   ,FALSE,TRUE,68947,79652,-10705,Medium,2026-05-02 17:39:15
+12166,Carol-jean Alspach,Compton Unified,18,22,Mid-Senior,Bachelor   ,TRUE,FALSE,86342,96901,-10559,Medium,2026-05-02 17:39:15
+11688,Annie Lisagor,San Francisco Unified,18,20,Mid-Senior,Bachelor   ,FALSE,TRUE,69238,79652,-10414,Medium,2026-05-02 17:39:15
+12807,Murry Mcmillan,San Francisco Unified,20,22,Senior,Bachelor   ,FALSE,TRUE,69340,79652,-10312,Medium,2026-05-02 17:39:15
+12481,Darcey Geppert,San Francisco Unified,33,36,Senior,Bachelor   ,FALSE,TRUE,69358,79652,-10294,Medium,2026-05-02 17:39:15
+12517,Wittie Ostrower,Ontario-Montclair,26,30,Senior,Bachelor   ,FALSE,TRUE,88302,98585,-10283,Medium,2026-05-02 17:39:15
+11960,Merv Goodale,San Francisco Unified,32,34,Senior,Bachelor   ,TRUE,FALSE,69522,79652,-10130,Medium,2026-05-02 17:39:15
+11739,Sullivan Mahdavi-damghani,San Francisco Unified,18,20,Mid-Senior,Bachelor   ,FALSE,TRUE,69540,79652,-10112,Medium,2026-05-02 17:39:15
+12428,Ignacius Philip,Compton Unified,26,30,Senior,Bachelor   ,FALSE,TRUE,87195,96901,-9706,Medium,2026-05-02 17:39:15
+12789,Shanna Mcleon,San Francisco Unified,25,27,Senior,Bachelor   ,FALSE,TRUE,70470,79652,-9182,Medium,2026-05-02 17:39:15
+11068,Marcie St,San Francisco Unified,26,28,Senior,Bachelor   ,FALSE,TRUE,70625,79652,-9027,Medium,2026-05-02 17:39:15
+12120,Siward Tabor,Compton Unified,30,34,Senior,Bachelor   ,FALSE,TRUE,87899,96901,-9002,Medium,2026-05-02 17:39:15
+12716,Dene Hembrow,Compton Unified,15,19,Mid-Senior,Master     ,FALSE,TRUE,87994,96901,-8907,Medium,2026-05-02 17:39:15
+10204,Hilde Kindlund,Ontario-Montclair,21,25,Senior,Master     ,FALSE,TRUE,89738,98585,-8847,Medium,2026-05-02 17:39:15
+12783,Mortimer Podgorski,San Francisco Unified,24,27,Senior,Bachelor   ,FALSE,TRUE,70844,79652,-8808,Medium,2026-05-02 17:39:15
+11119,Adair Repp,San Francisco Unified,28,30,Senior,High School,FALSE,FALSE,70867,79652,-8785,Medium,2026-05-02 17:39:15
+13136,Joella Mcardle,San Francisco Unified,18,20,Mid-Senior,Bachelor   ,FALSE,TRUE,71028,79652,-8624,Medium,2026-05-02 17:39:15
+11024,Una Rosenwald,Ontario-Montclair,23,27,Senior,Master     ,FALSE,TRUE,90102,98585,-8483,Medium,2026-05-02 17:39:15
+10580,Vanna Anfinrud,San Francisco Unified,26,28,Senior,Bachelor   ,FALSE,TRUE,71223,79652,-8429,Medium,2026-05-02 17:39:15
+12447,Marty Strain,San Francisco Unified,31,33,Senior,Bachelor   ,FALSE,TRUE,71411,79652,-8241,Medium,2026-05-02 17:39:15
+13240,Susi Kiskaddon,San Francisco Unified,19,21,Mid-Senior,Bachelor   ,FALSE,TRUE,71563,79652,-8089,Medium,2026-05-02 17:39:15
+13183,Natalee Pourahmadi,Compton Unified,23,26,Senior,Master     ,FALSE,TRUE,88907,96901,-7994,Medium,2026-05-02 17:39:15
+13199,Humbert Massarotti,Compton Unified,16,20,Mid-Senior,Master     ,FALSE,TRUE,89115,96901,-7786,Medium,2026-05-02 17:39:15
+10107,Giovanna Balster,San Francisco Unified,15,17,Mid-Senior,Bachelor   ,FALSE,TRUE,71887,79652,-7765,Medium,2026-05-02 17:39:15
+10006,Basile Kindlund,Compton Unified,26,30,Senior,Master     ,FALSE,TRUE,89343,96901,-7558,Medium,2026-05-02 17:39:15
+12078,Addison Corfas,San Francisco Unified,32,34,Senior,Bachelor   ,FALSE,TRUE,72229,79652,-7423,Medium,2026-05-02 17:39:15
+13256,Alameda Camaiti,Ontario-Montclair,25,28,Senior,Master     ,FALSE,TRUE,91192,98585,-7393,Medium,2026-05-02 17:39:15
+10404,Eddie Baraka,Compton Unified,29,33,Senior,Master     ,FALSE,TRUE,89523,96901,-7378,Medium,2026-05-02 17:39:15
+12264,Levon Schuler,San Francisco Unified,21,23,Senior,Bachelor   ,FALSE,TRUE,72379,79652,-7273,Medium,2026-05-02 17:39:15
+10978,Caryn Ardeni,San Francisco Unified,22,25,Senior,Bachelor   ,FALSE,TRUE,72511,79652,-7141,Medium,2026-05-02 17:39:15
+10300,Sascha Dilday,Compton Unified,20,24,Senior,Master     ,FALSE,TRUE,89887,96901,-7014,Medium,2026-05-02 17:39:15
+12786,Iosep Wrangham,San Francisco Unified,27,29,Senior,High School,FALSE,FALSE,72669,79652,-6983,Medium,2026-05-02 17:39:15
+11350,Ronald Drago,San Francisco Unified,25,28,Senior,Bachelor   ,FALSE,TRUE,73031,79652,-6621,Medium,2026-05-02 17:39:15
+12821,Merrill Campostrini,Compton Unified,31,35,Senior,Bachelor   ,FALSE,TRUE,90607,96901,-6294,Medium,2026-05-02 17:39:15
+12886,Nealon Ronkowski,Ontario-Montclair,20,24,Senior,Master     ,FALSE,TRUE,92361,98585,-6224,Medium,2026-05-02 17:39:15
+12029,Kayley Forrester,Ontario-Montclair,34,38,Senior,Master     ,FALSE,TRUE,92398,98585,-6187,Medium,2026-05-02 17:39:15
+10202,Bibby Miao,San Francisco Unified,15,18,Mid-Senior,Bachelor   ,FALSE,TRUE,73476,79652,-6176,Medium,2026-05-02 17:39:15
+12879,Keelby Russak,Ontario-Montclair,27,31,Senior,Master     ,FALSE,TRUE,92424,98585,-6161,Medium,2026-05-02 17:39:15
+12741,Jackie Baranowska-kortylewi,San Francisco Unified,32,35,Senior,Bachelor   ,FALSE,TRUE,73598,79652,-6054,Medium,2026-05-02 17:39:15
+10037,Elyssa Saakwa-mante,San Francisco Unified,23,25,Senior,Bachelor   ,FALSE,TRUE,73943,79652,-5709,Medium,2026-05-02 17:39:15
+12989,Winston Berne,San Francisco Unified,27,30,Senior,Bachelor   ,FALSE,TRUE,73987,79652,-5665,Medium,2026-05-02 17:39:15
+11954,Claire Spar,Ontario-Montclair,28,32,Senior,Master     ,FALSE,TRUE,92929,98585,-5656,Medium,2026-05-02 17:39:15
+12670,Wynne Feltner,San Francisco Unified,27,30,Senior,Bachelor   ,FALSE,TRUE,74032,79652,-5620,Medium,2026-05-02 17:39:15
+11568,Jarrad Martinez,San Francisco Unified,30,33,Senior,Bachelor   ,FALSE,TRUE,74111,79652,-5541,Medium,2026-05-02 17:39:15
+12136,Raina Brady,San Francisco Unified,29,31,Senior,Bachelor   ,FALSE,TRUE,74141,79652,-5511,Medium,2026-05-02 17:39:15
+12781,Pall Tretter,San Francisco Unified,31,33,Senior,Bachelor   ,FALSE,TRUE,74635,79652,-5017,Medium,2026-05-02 17:39:15
+11458,Aube De,San Francisco Unified,19,22,Mid-Senior,Bachelor   ,FALSE,TRUE,75194,79652,-4458,Low,2026-05-02 17:39:15
+10687,Annissa Wrangham,San Francisco Unified,17,19,Mid-Senior,High School,FALSE,FALSE,75284,79652,-4368,Low,2026-05-02 17:39:15
+12209,Jacquelynn Le,Beverly Hills Unified,28,32,Senior,Bachelor   ,FALSE,TRUE,92268,96623,-4355,Low,2026-05-02 17:39:15
+11990,Claretta Resta,San Francisco Unified,16,18,Mid-Senior,Bachelor   ,FALSE,TRUE,75380,79652,-4272,Low,2026-05-02 17:39:15
+12558,Damara Mckay,San Francisco Unified,25,28,Senior,Bachelor   ,FALSE,TRUE,75400,79652,-4252,Low,2026-05-02 17:39:15
+12740,Alisun Ru,San Francisco Unified,21,24,Senior,Bachelor   ,FALSE,TRUE,75445,79652,-4207,Low,2026-05-02 17:39:15
+11367,Druci Guerrini,Ontario-Montclair,18,22,Mid-Senior,Master     ,FALSE,TRUE,94443,98585,-4142,Low,2026-05-02 17:39:15
+10218,Tris Moncrieff,Beverly Hills Unified,31,35,Senior,Bachelor   ,FALSE,TRUE,92671,96623,-3952,Low,2026-05-02 17:39:15
+11769,Averell Rissland,Ontario-Montclair,22,26,Senior,Master     ,FALSE,TRUE,94665,98585,-3920,Low,2026-05-02 17:39:15
+11909,Daffi Crothers,Compton Unified,17,21,Mid-Senior,Master     ,FALSE,TRUE,93016,96901,-3885,Low,2026-05-02 17:39:15
+11798,Jervis Gili,San Francisco Unified,32,35,Senior,Bachelor   ,FALSE,TRUE,75869,79652,-3783,Low,2026-05-02 17:39:15
+12301,Coleman Radochia,Ontario-Montclair,18,22,Mid-Senior,Master     ,FALSE,TRUE,94916,98585,-3669,Low,2026-05-02 17:39:15
+11131,Marci Montello,San Francisco Unified,29,32,Senior,Bachelor   ,FALSE,TRUE,76219,79652,-3433,Low,2026-05-02 17:39:15
+12077,Terri Manuel,Compton Unified,29,32,Senior,Master     ,FALSE,TRUE,93543,96901,-3358,Low,2026-05-02 17:39:15
+12345,Fredrika Seyfert,Compton Unified,33,37,Senior,Master     ,FALSE,TRUE,93824,96901,-3077,Low,2026-05-02 17:39:15
+10538,Sallyanne Breyan,Ontario-Montclair,23,27,Senior,Master     ,FALSE,TRUE,95585,98585,-3000,Low,2026-05-02 17:39:15
+12072,Malvin Lucier,San Francisco Unified,20,22,Senior,High School,FALSE,FALSE,76653,79652,-2999,Low,2026-05-02 17:39:15
+12436,Shaun Shieh,San Francisco Unified,27,29,Senior,High School,FALSE,FALSE,76771,79652,-2881,Low,2026-05-02 17:39:15
+12736,Pate Stoppa,Compton Unified,22,26,Senior,Master     ,FALSE,TRUE,94090,96901,-2811,Low,2026-05-02 17:39:15
+10835,Bevin Eckroad,San Francisco Unified,22,25,Senior,Bachelor   ,FALSE,TRUE,76980,79652,-2672,Low,2026-05-02 17:39:15
+11167,Georas Blanc,San Francisco Unified,32,35,Senior,Bachelor   ,FALSE,TRUE,77228,79652,-2424,Low,2026-05-02 17:39:15
+12648,Jacinta Janecki,Compton Unified,18,22,Mid-Senior,Master     ,FALSE,TRUE,94569,96901,-2332,Low,2026-05-02 17:39:15
+12303,Kelcie Python,San Francisco Unified,19,21,Mid-Senior,Bachelor   ,FALSE,TRUE,77336,79652,-2316,Low,2026-05-02 17:39:15
+10077,Tanny Figel,Ontario-Montclair,34,38,Senior,Master     ,FALSE,TRUE,96362,98585,-2223,Low,2026-05-02 17:39:15
+11567,Winfred Thibault,San Francisco Unified,23,26,Senior,Bachelor   ,FALSE,TRUE,77538,79652,-2114,Low,2026-05-02 17:39:15
+11588,Julieta Boering,San Francisco Unified,21,24,Senior,Bachelor   ,FALSE,TRUE,77556,79652,-2096,Low,2026-05-02 17:39:15
+10485,Marty Posner,San Francisco Unified,32,34,Senior,Bachelor   ,TRUE,FALSE,77596,79652,-2056,Low,2026-05-02 17:39:15
+12329,Katleen D'alfonso,San Francisco Unified,31,34,Senior,Bachelor   ,FALSE,TRUE,77722,79652,-1930,Low,2026-05-02 17:39:15
+10900,Bondie Nader,Compton Unified,17,21,Mid-Senior,Master     ,FALSE,TRUE,95128,96901,-1773,Low,2026-05-02 17:39:15
+12199,Marlo Hodgson,Compton Unified,31,35,Senior,Master     ,FALSE,TRUE,95140,96901,-1761,Low,2026-05-02 17:39:15
+10651,Ursula Thibault,San Francisco Unified,23,25,Senior,Bachelor   ,FALSE,TRUE,77898,79652,-1754,Low,2026-05-02 17:39:15
+12075,Eleonore Medawar,San Francisco Unified,15,17,Mid-Senior,High School,FALSE,FALSE,78032,79652,-1620,Low,2026-05-02 17:39:15
+11984,Allina Bradford,Ontario-Montclair,30,34,Senior,Master     ,FALSE,TRUE,97004,98585,-1581,Low,2026-05-02 17:39:15
+11312,Kittie Gupta,Ontario-Montclair,15,19,Mid-Senior,Master     ,FALSE,TRUE,97048,98585,-1537,Low,2026-05-02 17:39:15
+12226,Kerrill Barre,San Francisco Unified,17,19,Mid-Senior,Bachelor   ,FALSE,TRUE,78136,79652,-1516,Low,2026-05-02 17:39:15
+11649,Agata Jacoby,San Francisco Unified,18,21,Mid-Senior,Bachelor   ,FALSE,TRUE,78313,79652,-1339,Low,2026-05-02 17:39:15
+10677,Linnell O'brien,Ontario-Montclair,22,26,Senior,Master     ,FALSE,TRUE,97256,98585,-1329,Low,2026-05-02 17:39:15
+10152,Boyce Melville,Ontario-Montclair,29,33,Senior,Master     ,FALSE,TRUE,97341,98585,-1244,Low,2026-05-02 17:39:15
+12541,Newton Debroff,Compton Unified,19,23,Mid-Senior,Master     ,FALSE,TRUE,95714,96901,-1187,Low,2026-05-02 17:39:15
+11791,Willyt Sclafani,Ontario-Montclair,18,22,Mid-Senior,Master     ,FALSE,TRUE,97500,98585,-1085,Low,2026-05-02 17:39:15
+12479,Delilah Sholes,San Francisco Unified,26,29,Senior,Bachelor   ,FALSE,TRUE,78594,79652,-1058,Low,2026-05-02 17:39:15
+10744,Rachele Ekiert,Beverly Hills Unified,19,23,Mid-Senior,Bachelor   ,FALSE,FALSE,95893,96623,-730,Low,2026-05-02 17:39:15
+11504,Gavrielle Hughes-davies,San Francisco Unified,23,26,Senior,Bachelor   ,FALSE,TRUE,79148,79652,-504,Low,2026-05-02 17:39:15
+10219,Hailey Reid,San Francisco Unified,33,36,Senior,Bachelor   ,FALSE,TRUE,79163,79652,-489,Low,2026-05-02 17:39:15
+11580,Celisse Nuwayser,San Francisco Unified,33,36,Senior,Bachelor   ,FALSE,TRUE,79216,79652,-436,Low,2026-05-02 17:39:15
+12595,Corrie Atkins,Compton Unified,34,38,Senior,Master     ,FALSE,TRUE,96484,96901,-417,Low,2026-05-02 17:39:15
+13104,Robinetta Embrechts,Compton Unified,32,36,Senior,Master     ,FALSE,TRUE,96667,96901,-234,Low,2026-05-02 17:39:15
+11553,Pamella Wyatt,Compton Unified,29,33,Senior,Bachelor   ,FALSE,TRUE,96823,96901,-78,Low,2026-05-02 17:39:15

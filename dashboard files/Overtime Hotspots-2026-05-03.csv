@@ -1,0 +1,135 @@
+EMP_ID,EMPLOYEE_NAME,DISTRICT_NAME,REG_PAY,OVERTIME_PAY,ot_pct_of_reg,ot_risk_level,years_of_service,seniority_level,IS_ADMIN,IS_TEACHER,_gold_ingested_at
+13175,Ros Giffin,Compton Unified,77100,24275,31.49,High,24,Senior,FALSE,TRUE,2026-05-02 17:39:08
+10494,Micki Giddens,Compton Unified,83712,20278,24.22,High,29,Senior,FALSE,TRUE,2026-05-02 17:39:08
+11095,Lucius Sekoni,Compton Unified,54574,11516,21.1,High,34,Senior,FALSE,TRUE,2026-05-02 17:39:08
+12457,Loella Bolitho,Compton Unified,68734,11922,17.35,Medium,12,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+11410,Peter Dohrmann,Compton Unified,98499,14165,14.38,Medium,30,Senior,FALSE,TRUE,2026-05-02 17:39:08
+13221,Wendi Woolf,Compton Unified,85987,11489,13.36,Medium,31,Senior,FALSE,TRUE,2026-05-02 17:39:08
+12077,Terri Manuel,Compton Unified,69174,8378,12.11,Medium,29,Senior,FALSE,TRUE,2026-05-02 17:39:08
+10043,Brion Menten,San Francisco Unified,40750,3871,9.5,Low,11,Mid-Senior,FALSE,FALSE,2026-05-02 17:39:08
+13244,Marjory Burner,Compton Unified,88485,8385,9.48,Low,30,Senior,FALSE,TRUE,2026-05-02 17:39:08
+10782,Lorene Hughes-davies,Compton Unified,95368,8796,9.22,Low,11,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+10646,Helen-elizabeth Peede,Compton Unified,85907,7065,8.22,Low,15,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+10815,Luce Morehouse,Compton Unified,85007,6271,7.38,Low,10,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+13104,Robinetta Embrechts,Compton Unified,77433,5684,7.34,Low,32,Senior,FALSE,TRUE,2026-05-02 17:39:08
+12126,Valaree Cicero,San Francisco Unified,40187,2868,7.14,Low,26,Senior,FALSE,FALSE,2026-05-02 17:39:08
+12120,Siward Tabor,Compton Unified,70046,4883,6.97,Low,30,Senior,FALSE,TRUE,2026-05-02 17:39:08
+12891,Sascha Hollins,San Francisco Unified,20469,1408,6.88,Low,12,Mid-Senior,FALSE,FALSE,2026-05-02 17:39:08
+11244,Dominique Seoh,Compton Unified,91248,6188,6.78,Low,13,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+11290,Constantine Barber,Compton Unified,93412,6265,6.71,Low,25,Senior,FALSE,TRUE,2026-05-02 17:39:08
+13231,Benni Khalsa,Compton Unified,93412,5858,6.27,Low,28,Senior,FALSE,TRUE,2026-05-02 17:39:08
+11778,Bella Catlin,Compton Unified,88368,5310,6.01,Low,27,Senior,FALSE,TRUE,2026-05-02 17:39:08
+11668,Chrotoem Wolk,Compton Unified,92400,5537,5.99,Low,17,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+11061,Erskine Flemming,Compton Unified,79607,4703,5.91,Low,11,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+11437,Hermie Babyonyshev,Compton Unified,95397,5405,5.67,Low,17,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+10140,Tamas Lans,Compton Unified,70453,3796,5.39,Low,19,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+11071,Zack Agterberg,Compton Unified,43436,2212,5.09,Low,28,Senior,FALSE,TRUE,2026-05-02 17:39:08
+12572,Carlos Kranzer,Compton Unified,86533,4310,4.98,Low,33,Senior,FALSE,TRUE,2026-05-02 17:39:08
+13183,Natalee Pourahmadi,Compton Unified,69853,3436,4.92,Low,23,Senior,FALSE,TRUE,2026-05-02 17:39:08
+10049,Eldin Capozzoli,San Francisco Unified,30501,1497,4.91,Low,22,Senior,FALSE,FALSE,2026-05-02 17:39:08
+10091,Gilburt Bruhn,Compton Unified,65271,2969,4.55,Low,29,Senior,FALSE,TRUE,2026-05-02 17:39:08
+13039,Helli Poindexter,San Francisco Unified,24976,1074,4.3,Low,11,Mid-Senior,FALSE,FALSE,2026-05-02 17:39:08
+11326,Klemens Hotchkiss,Beverly Hills Unified,38970,1548,3.97,Low,32,Senior,FALSE,FALSE,2026-05-02 17:39:08
+11119,Adair Repp,San Francisco Unified,38121,1477,3.87,Low,28,Senior,FALSE,FALSE,2026-05-02 17:39:08
+12541,Newton Debroff,Compton Unified,82353,2829,3.44,Low,19,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+10900,Bondie Nader,Compton Unified,76476,2538,3.32,Low,17,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+11553,Pamella Wyatt,Compton Unified,86516,2747,3.18,Low,29,Senior,FALSE,TRUE,2026-05-02 17:39:08
+11808,Gussy Bissen,Compton Unified,79824,2503,3.14,Low,10,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+11967,Gideon Rochon,Compton Unified,67659,2119,3.13,Low,23,Senior,FALSE,TRUE,2026-05-02 17:39:08
+13184,Salmon Gillevet,Compton Unified,68877,2118,3.08,Low,26,Senior,FALSE,TRUE,2026-05-02 17:39:08
+10320,Rogerio Saville,Compton Unified,87624,2551,2.91,Low,23,Senior,FALSE,TRUE,2026-05-02 17:39:08
+10300,Sascha Dilday,Compton Unified,72119,2081,2.89,Low,20,Senior,FALSE,TRUE,2026-05-02 17:39:08
+11296,Eli Holowinsky,San Francisco Unified,34055,983,2.89,Low,22,Senior,FALSE,FALSE,2026-05-02 17:39:08
+12345,Fredrika Seyfert,Compton Unified,75641,2180,2.88,Low,33,Senior,FALSE,TRUE,2026-05-02 17:39:08
+12036,Kass Bronson,Compton Unified,94939,2676,2.82,Low,21,Senior,FALSE,TRUE,2026-05-02 17:39:08
+10296,Billie Oostendorp,Compton Unified,90471,2503,2.77,Low,16,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+11960,Merv Goodale,San Francisco Unified,46383,1147,2.47,Low,32,Senior,TRUE,FALSE,2026-05-02 17:39:08
+13161,Jacquetta Thoreau,Compton Unified,72273,1781,2.46,Low,11,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+10364,Lyda Voligny,Compton Unified,69652,1641,2.36,Low,31,Senior,FALSE,TRUE,2026-05-02 17:39:08
+11109,Gardener Fearnley,Compton Unified,83581,1946,2.33,Low,27,Senior,FALSE,TRUE,2026-05-02 17:39:08
+12987,Petey D'ambra,Compton Unified,79601,1821,2.29,Low,24,Senior,FALSE,TRUE,2026-05-02 17:39:08
+11181,Rorie Rodgers,Compton Unified,82046,1867,2.28,Low,12,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+10470,Hermie Zombeck,Compton Unified,92400,2091,2.26,Low,29,Senior,FALSE,TRUE,2026-05-02 17:39:08
+10433,Jae Baleja,Compton Unified,90471,2015,2.23,Low,33,Senior,FALSE,TRUE,2026-05-02 17:39:08
+13199,Humbert Massarotti,Compton Unified,80381,1778,2.21,Low,16,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+10240,Issiah Moody,Ontario-Montclair,48005,1042,2.17,Low,17,Mid-Senior,FALSE,FALSE,2026-05-02 17:39:08
+10903,Dela Rickborn,Compton Unified,79213,1720,2.17,Low,20,Senior,FALSE,TRUE,2026-05-02 17:39:08
+12596,Carr Fenyo,Compton Unified,65032,1404,2.16,Low,10,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+10167,Bram Farneti,Compton Unified,90471,1816,2.01,Low,33,Senior,FALSE,TRUE,2026-05-02 17:39:08
+10228,Valencia Feynman,Compton Unified,54590,1024,1.88,Low,30,Senior,TRUE,FALSE,2026-05-02 17:39:08
+12428,Ignacius Philip,Compton Unified,72908,1351,1.85,Low,26,Senior,FALSE,TRUE,2026-05-02 17:39:08
+12594,Harrietta Hercod,Compton Unified,91248,1633,1.79,Low,23,Senior,FALSE,TRUE,2026-05-02 17:39:08
+12358,Tomasina Dalaklis,Compton Unified,95397,1697,1.78,Low,19,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+11033,Shaine Sparrow,San Francisco Unified,39114,688,1.76,Low,11,Mid-Senior,FALSE,FALSE,2026-05-02 17:39:08
+11075,Farlee Ptashne,Compton Unified,18224,316,1.73,Low,14,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+12716,Dene Hembrow,Compton Unified,77100,1272,1.65,Low,15,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+10925,Casper Leder,San Francisco Unified,51264,843,1.64,Low,28,Senior,TRUE,FALSE,2026-05-02 17:39:08
+13225,Alwin Roemer,Beverly Hills Unified,47377,771,1.63,Low,21,Senior,FALSE,FALSE,2026-05-02 17:39:08
+10991,Lynde Sholes,Compton Unified,98469,1572,1.6,Low,31,Senior,FALSE,TRUE,2026-05-02 17:39:08
+10705,Myrtle Farrow,Beverly Hills Unified,38966,610,1.57,Low,17,Mid-Senior,FALSE,FALSE,2026-05-02 17:39:08
+12186,Breena Boatman,Compton Unified,89907,1407,1.56,Low,20,Senior,FALSE,TRUE,2026-05-02 17:39:08
+12736,Pate Stoppa,Compton Unified,76881,1191,1.55,Low,22,Senior,FALSE,TRUE,2026-05-02 17:39:08
+10079,Correy Grusby,Compton Unified,76516,1116,1.46,Low,19,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+11790,Marcelle Marashian,Ontario-Montclair,26849,378,1.41,Low,31,Senior,FALSE,FALSE,2026-05-02 17:39:08
+11585,Hillier Feynman,San Francisco Unified,45927,632,1.38,Low,13,Mid-Senior,TRUE,FALSE,2026-05-02 17:39:08
+10045,Cora Boneck,Compton Unified,83402,1100,1.32,Low,16,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+12076,Steffi Fitzgerald,Compton Unified,33049,422,1.28,Low,20,Senior,FALSE,TRUE,2026-05-02 17:39:08
+12282,Merridie Holm,Compton Unified,64898,827,1.27,Low,12,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+10565,Myrtle Cline,Compton Unified,22434,281,1.25,Low,24,Senior,FALSE,TRUE,2026-05-02 17:39:08
+13189,Inglis Cantor,Compton Unified,91248,1124,1.23,Low,25,Senior,FALSE,TRUE,2026-05-02 17:39:08
+10489,Selby Hillsbery,Ontario-Montclair,12809,155,1.21,Low,13,Mid-Senior,FALSE,FALSE,2026-05-02 17:39:08
+12595,Corrie Atkins,Compton Unified,84869,1027,1.21,Low,34,Senior,FALSE,TRUE,2026-05-02 17:39:08
+12199,Marlo Hodgson,Compton Unified,83712,948,1.13,Low,31,Senior,FALSE,TRUE,2026-05-02 17:39:08
+10957,Dorie Elvins,Compton Unified,113336,1231,1.09,Low,24,Senior,TRUE,FALSE,2026-05-02 17:39:08
+12821,Merrill Campostrini,Compton Unified,79607,871,1.09,Low,31,Senior,FALSE,TRUE,2026-05-02 17:39:08
+10803,Christos Avenell,San Francisco Unified,28435,304,1.07,Low,13,Mid-Senior,FALSE,FALSE,2026-05-02 17:39:08
+11249,Allys Meitzen,Compton Unified,80886,858,1.06,Low,21,Senior,FALSE,TRUE,2026-05-02 17:39:08
+10687,Annissa Wrangham,San Francisco Unified,39622,407,1.03,Low,17,Mid-Senior,FALSE,FALSE,2026-05-02 17:39:08
+10404,Eddie Baraka,Compton Unified,79290,799,1.01,Low,29,Senior,FALSE,TRUE,2026-05-02 17:39:08
+11301,Dicky Hardacre,Compton Unified,88485,863,0.98,Low,32,Senior,FALSE,TRUE,2026-05-02 17:39:08
+12786,Iosep Wrangham,San Francisco Unified,41502,404,0.97,Low,27,Senior,FALSE,FALSE,2026-05-02 17:39:08
+13245,Guthrie Mei,San Francisco Unified,83191,799,0.96,Low,21,Senior,TRUE,FALSE,2026-05-02 17:39:08
+12075,Eleonore Medawar,San Francisco Unified,42534,404,0.95,Low,15,Mid-Senior,FALSE,FALSE,2026-05-02 17:39:08
+12072,Malvin Lucier,San Francisco Unified,41502,370,0.89,Low,20,Senior,FALSE,FALSE,2026-05-02 17:39:08
+10006,Basile Kindlund,Compton Unified,78621,690,0.88,Low,26,Senior,FALSE,TRUE,2026-05-02 17:39:08
+10701,Glen Vayner,Compton Unified,82191,702,0.85,Low,34,Senior,FALSE,TRUE,2026-05-02 17:39:08
+10241,Gavin Verdirosi,San Francisco Unified,44600,370,0.83,Low,28,Senior,FALSE,FALSE,2026-05-02 17:39:08
+12000,Amelia Matarazzo,Compton Unified,20508,170,0.83,Low,30,Senior,FALSE,TRUE,2026-05-02 17:39:08
+12637,Agosto Lyons,Compton Unified,73743,614,0.83,Low,17,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+13222,Theresina Gallucio,Compton Unified,93297,749,0.8,Low,20,Senior,FALSE,TRUE,2026-05-02 17:39:08
+11727,Sax Foley,Compton Unified,76881,606,0.79,Low,15,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+13031,Hewet Dahlberg,Compton Unified,87624,695,0.79,Low,30,Senior,FALSE,TRUE,2026-05-02 17:39:08
+11439,Olly Maruca,San Francisco Unified,47424,352,0.74,Low,32,Senior,TRUE,FALSE,2026-05-02 17:39:08
+13254,Genevra Picardi,San Francisco Unified,21147,155,0.73,Low,25,Senior,FALSE,FALSE,2026-05-02 17:39:08
+10545,Jillian Shin,Compton Unified,96441,697,0.72,Low,16,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+11248,Brian Pick,Compton Unified,79388,556,0.7,Low,17,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+10550,Ad Strachan,San Francisco Unified,50391,350,0.69,Low,13,Mid-Senior,TRUE,FALSE,2026-05-02 17:39:08
+12015,Ange Kimura,Ontario-Montclair,23333,162,0.69,Low,23,Senior,FALSE,FALSE,2026-05-02 17:39:08
+10834,Jesus Cordova,Compton Unified,18632,127,0.68,Low,28,Senior,FALSE,TRUE,2026-05-02 17:39:08
+12967,Reade Politch,San Francisco Unified,59391,405,0.68,Low,21,Senior,TRUE,FALSE,2026-05-02 17:39:08
+11801,Avram Mcneill,Ontario-Montclair,34945,235,0.67,Low,13,Mid-Senior,FALSE,FALSE,2026-05-02 17:39:08
+11050,Aimee Furtado,Compton Unified,98499,632,0.64,Low,15,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+11909,Daffi Crothers,Compton Unified,76591,492,0.64,Low,17,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+11938,Prudi Coffey,Compton Unified,69596,424,0.61,Low,32,Senior,FALSE,TRUE,2026-05-02 17:39:08
+12196,Culver Van,Compton Unified,93297,562,0.6,Low,25,Senior,FALSE,TRUE,2026-05-02 17:39:08
+12238,Benn Westfall,Compton Unified,50806,294,0.58,Low,21,Senior,TRUE,FALSE,2026-05-02 17:39:08
+11168,Jecho Deitcher,Ontario-Montclair,43899,249,0.57,Low,15,Mid-Senior,FALSE,FALSE,2026-05-02 17:39:08
+13214,Halli Haldi,Ontario-Montclair,43495,233,0.54,Low,14,Mid-Senior,TRUE,FALSE,2026-05-02 17:39:08
+10420,Joshia Conklin,Compton Unified,90947,464,0.51,Low,33,Senior,FALSE,TRUE,2026-05-02 17:39:08
+12648,Jacinta Janecki,Compton Unified,83712,421,0.5,Low,18,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+12159,Margie Kranzer,San Francisco Unified,25211,122,0.48,Low,26,Senior,FALSE,FALSE,2026-05-02 17:39:08
+11887,Nerti Gilstrap,Compton Unified,88106,409,0.46,Low,11,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+11051,Claus O'day,Compton Unified,101710,456,0.45,Low,32,Senior,FALSE,TRUE,2026-05-02 17:39:08
+11370,Jaime Battson,Compton Unified,77699,316,0.41,Low,16,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+12661,Reuven Van,Ontario-Montclair,20286,77,0.38,Low,26,Senior,TRUE,FALSE,2026-05-02 17:39:08
+12251,Connie Martens,Ontario-Montclair,47875,147,0.31,Low,17,Mid-Senior,FALSE,FALSE,2026-05-02 17:39:08
+12813,Darbie Brody,Compton Unified,61872,173,0.28,Low,29,Senior,TRUE,FALSE,2026-05-02 17:39:08
+10692,Adrian Knight,San Francisco Unified,50172,131,0.26,Low,10,Mid-Senior,TRUE,FALSE,2026-05-02 17:39:08
+10768,Glyn Tonini,San Francisco Unified,23943,53,0.22,Low,22,Senior,FALSE,FALSE,2026-05-02 17:39:08
+11403,Hadrian Jordan,Compton Unified,25408,35,0.14,Low,20,Senior,FALSE,TRUE,2026-05-02 17:39:08
+10765,Sapphire Edgerton,Compton Unified,26150,35,0.13,Low,26,Senior,FALSE,TRUE,2026-05-02 17:39:08
+11323,Dyna Stephenson,Compton Unified,71579,70,0.1,Low,30,Senior,FALSE,TRUE,2026-05-02 17:39:08
+12436,Shaun Shieh,San Francisco Unified,35586,35,0.1,Low,27,Senior,FALSE,FALSE,2026-05-02 17:39:08
+12638,Hilary Maclean,Compton Unified,72948,70,0.1,Low,10,Mid-Senior,FALSE,TRUE,2026-05-02 17:39:08
+10259,Forest Aghayan,Ontario-Montclair,35657,3,0.01,Low,34,Senior,TRUE,FALSE,2026-05-02 17:39:08
+10422,Merrick Shatkin,Ontario-Montclair,49181,7,0.01,Low,12,Mid-Senior,TRUE,FALSE,2026-05-02 17:39:08

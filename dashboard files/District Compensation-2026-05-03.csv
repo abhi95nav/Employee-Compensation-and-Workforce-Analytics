@@ -1,0 +1,5 @@
+DISTRICT_ID,DISTRICT_NAME,employee_count,teacher_count,admin_count,avg_years_of_service,avg_total_experience,avg_total_compensation,total_compensation_budget,avg_reg_pay,avg_overtime_pay,avg_benefits,promotion_eligible_count,promotion_eligible_pct,_gold_ingested_at
+1,Ontario-Montclair,142,109,23,22.4,26,90973.91,12918295,74107.7,18.93,14163.01,142,100,2026-05-02 17:38:19
+2,Compton Unified,116,92,20,22.6,26.6,94118.01,10917689,79618.49,2406.98,12092.53,116,100,2026-05-02 17:38:19
+3,Beverly Hills Unified,41,32,4,23.5,27.1,85447.98,3503367,72762.2,71.44,11348,41,100,2026-05-02 17:38:19
+4,San Francisco Unified,402,280,89,22.7,25.5,78714.99,31643426,55026.29,52.61,13511.9,402,100,2026-05-02 17:38:19

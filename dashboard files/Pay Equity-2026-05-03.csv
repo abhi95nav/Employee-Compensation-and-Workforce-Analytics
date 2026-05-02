@@ -1,0 +1,5 @@
+DISTRICT_NAME,admin_headcount,avg_admin_compensation,avg_admin_tenure,teacher_headcount,avg_teacher_compensation,avg_teacher_tenure,pay_gap,pay_gap_pct,equity_flag,_gold_ingested_at
+Beverly Hills Unified,4,145765.25,26.5,32,82386.78,23.1,63378.47,76.9,Critical Gap,2026-05-02 17:39:04
+San Francisco Unified,89,107884.24,22.6,280,70698.26,22.8,37185.98,52.6,Critical Gap,2026-05-02 17:39:04
+Ontario-Montclair,23,121830.43,20.7,109,87395.85,23,34434.58,39.4,Significant Gap,2026-05-02 17:39:04
+Compton Unified,20,109002.1,22.4,92,91132.99,22.6,17869.11,19.6,Moderate Gap,2026-05-02 17:39:04

@@ -1,0 +1,6 @@
+HIGHEST_EARNED_DEGREE,employee_count,avg_total_compensation,avg_reg_pay,avg_benefits,avg_years_of_service,avg_total_experience,admin_count,teacher_count,pct_admin,bachelor_baseline,premium_vs_bachelor,premium_pct,_gold_ingested_at
+Doctorate  ,2,284390.5,181077,29646.5,23.5,32.5,1,1,50,77291.75,207098.75,267.9,2026-05-02 17:39:21
+Master     ,151,110936.07,91239.17,16235.54,22.7,27.2,20,131,13.2,77291.75,33644.32,43.5,2026-05-02 17:39:21
+Bachelor   ,516,77291.75,57638.21,12118.57,22.8,25.7,115,381,22.3,77291.75,0,0,2026-05-02 17:39:21
+High School,31,56468.84,30800.16,17573.9,20.8,22.4,0,0,0,77291.75,-20822.91,-26.9,2026-05-02 17:39:21
+Associate  ,1,29570,27468,2102,20,21,0,0,0,77291.75,-47721.75,-61.7,2026-05-02 17:39:21

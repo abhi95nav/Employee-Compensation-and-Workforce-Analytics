@@ -1,0 +1,16 @@
+DISTRICT_NAME,retirement_band,employee_count,teacher_count,admin_count,total_comp_at_risk,avg_compensation,avg_tenure,_gold_ingested_at
+Beverly Hills Unified,Imminent (35+ yrs),1,1,0,18962,18962,35,2026-05-02 17:39:30
+Beverly Hills Unified,Near-term (30-34 yrs),12,10,1,939315,78276.25,31.9,2026-05-02 17:39:30
+Beverly Hills Unified,Mid-term (25-29 yrs),6,3,2,433377,72229.5,27.7,2026-05-02 17:39:30
+Beverly Hills Unified,Long-term (<25 yrs),22,18,1,2111713,95986.95,17.2,2026-05-02 17:39:30
+Compton Unified,Near-term (30-34 yrs),26,23,3,2475197,95199.88,31.6,2026-05-02 17:39:30
+Compton Unified,Mid-term (25-29 yrs),24,18,4,2346132,97755.5,27.3,2026-05-02 17:39:30
+Compton Unified,Long-term (<25 yrs),66,51,13,6096360,92369.09,17.3,2026-05-02 17:39:30
+Ontario-Montclair,Imminent (35+ yrs),5,5,0,498723,99744.6,35,2026-05-02 17:39:30
+Ontario-Montclair,Near-term (30-34 yrs),28,21,4,2458446,87801.64,32.1,2026-05-02 17:39:30
+Ontario-Montclair,Mid-term (25-29 yrs),25,23,2,2018525,80741,27,2026-05-02 17:39:30
+Ontario-Montclair,Long-term (<25 yrs),84,60,17,7942601,94554.77,17.1,2026-05-02 17:39:30
+San Francisco Unified,Imminent (35+ yrs),4,4,0,329982,82495.5,35,2026-05-02 17:39:30
+San Francisco Unified,Near-term (30-34 yrs),93,67,20,7551464,81198.54,32.1,2026-05-02 17:39:30
+San Francisco Unified,Mid-term (25-29 yrs),78,51,18,6363433,81582.47,27,2026-05-02 17:39:30
+San Francisco Unified,Long-term (<25 yrs),227,158,51,17398547,76645.58,17.2,2026-05-02 17:39:30
