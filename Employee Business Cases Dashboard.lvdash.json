@@ -1,0 +1,1932 @@
+{
+  "datasets": [
+    {
+      "name": "gold_emp_summary",
+      "displayName": "Employee Summary",
+      "queryLines": [
+        "SELECT\n",
+        "  *\n",
+        "FROM\n",
+        "  employeedatacatalog.gold_employee.gold_employee_summary"
+      ],
+      "columns": [
+        {
+          "displayName": "Role",
+          "description": "Employee role classification for pay equity analysis",
+          "expression": "CASE WHEN `IS_ADMIN` = true THEN 'Admin' WHEN `IS_TEACHER` = true THEN 'Teacher' ELSE 'Other' END"
+        },
+        {
+          "displayName": "Retirement Band",
+          "description": "Retirement risk classification by tenure",
+          "expression": "CASE WHEN `years_of_service` >= 35 THEN 'Imminent (35+ yrs)' WHEN `years_of_service` >= 30 THEN 'Near-term (30-34 yrs)' WHEN `years_of_service` >= 25 THEN 'Mid-term (25-29 yrs)' ELSE 'Long-term (<25 yrs)' END"
+        },
+        {
+          "displayName": "Benefits Band",
+          "description": "Benefits cost tier for optimization analysis",
+          "expression": "CASE WHEN `total_compensation` > 0 AND (`TOTAL_BENEFITS` / `total_compensation` * 100) > 30 THEN 'Very High (>30%)' WHEN `total_compensation` > 0 AND (`TOTAL_BENEFITS` / `total_compensation` * 100) > 20 THEN 'High (20-30%)' WHEN `total_compensation` > 0 AND (`TOTAL_BENEFITS` / `total_compensation` * 100) > 10 THEN 'Normal (10-20%)' WHEN `total_compensation` > 0 AND (`TOTAL_BENEFITS` / `total_compensation` * 100) > 0 THEN 'Low (<10%)' ELSE 'No Benefits' END"
+        }
+      ]
+    },
+    {
+      "name": "gold_district_comp",
+      "displayName": "District Compensation",
+      "queryLines": [
+        "SELECT\n",
+        "  *\n",
+        "FROM\n",
+        "  employeedatacatalog.gold_employee.gold_district_compensation"
+      ]
+    },
+    {
+      "name": "pay_equity",
+      "displayName": "Pay Equity",
+      "queryLines": [
+        "SELECT\n",
+        "  *\n",
+        "FROM\n",
+        "  employeedatacatalog.gold_employee.admin_vs_teacher_pay_equity"
+      ]
+    },
+    {
+      "name": "degree_roi",
+      "displayName": "Degree ROI",
+      "queryLines": [
+        "SELECT\n",
+        "  *\n",
+        "FROM\n",
+        "  employeedatacatalog.gold_employee.degree_roi_analysis"
+      ]
+    },
+    {
+      "name": "quarterly_pay",
+      "displayName": "Quarterly Pay Breakdown",
+      "queryLines": [
+        "SELECT\n",
+        "  *\n",
+        "FROM\n",
+        "  employeedatacatalog.gold_employee.quarterly_pay_breakdown"
+      ]
+    },
+    {
+      "name": "retirement_risk",
+      "displayName": "Retirement Risk",
+      "queryLines": [
+        "SELECT\n",
+        "  *\n",
+        "FROM\n",
+        "  employeedatacatalog.gold_employee.retirement_risk_analysis"
+      ]
+    },
+    {
+      "name": "promotion_pipeline",
+      "displayName": "Promotion Pipeline",
+      "queryLines": [
+        "SELECT\n",
+        "  *\n",
+        "FROM\n",
+        "  employeedatacatalog.gold_employee.promotion_pipeline"
+      ]
+    },
+    {
+      "name": "underpaid_seniors",
+      "displayName": "Underpaid Seniors",
+      "queryLines": [
+        "SELECT\n",
+        "  *\n",
+        "FROM\n",
+        "  employeedatacatalog.gold_employee.underpaid_senior_employees"
+      ]
+    },
+    {
+      "name": "overtime_hotspots",
+      "displayName": "Overtime Hotspots",
+      "queryLines": [
+        "SELECT\n",
+        "  *\n",
+        "FROM\n",
+        "  employeedatacatalog.gold_employee.overtime_cost_hotspots"
+      ]
+    },
+    {
+      "name": "cert_gap",
+      "displayName": "Certification Gap",
+      "queryLines": [
+        "SELECT\n",
+        "  *\n",
+        "FROM\n",
+        "  employeedatacatalog.gold_employee.certification_gap_report"
+      ]
+    },
+    {
+      "name": "benefits_opt",
+      "displayName": "Benefits Optimization",
+      "queryLines": [
+        "SELECT\n",
+        "  *\n",
+        "FROM\n",
+        "  employeedatacatalog.gold_employee.benefits_cost_optimization"
+      ]
+    },
+    {
+      "name": "cert_breadth",
+      "displayName": "Certification Breadth",
+      "queryLines": [
+        "SELECT\n",
+        "  *\n",
+        "FROM\n",
+        "  employeedatacatalog.gold_employee.teacher_certification_breadth"
+      ]
+    },
+    {
+      "name": "top10_comp",
+      "displayName": "Top 10 Compensated",
+      "queryLines": [
+        "SELECT\n",
+        "  *\n",
+        "FROM\n",
+        "  employeedatacatalog.gold_employee.top10_compensated_per_district"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "name": "7f6bc34f",
+      "displayName": "Executive Overview",
+      "layout": [
+        {
+          "widget": {
+            "name": "header",
+            "multilineTextboxSpec": {
+              "lines": [
+                "## Employee Business Cases — Executive Overview"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 12,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "counter_total_emp",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "gold_emp_summary",
+                  "fields": [
+                    {
+                      "name": "count(EMP_ID)",
+                      "expression": "COUNT(`EMP_ID`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Total Employees",
+                "showTitle": true
+              },
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "count(EMP_ID)",
+                  "displayName": "Total Employees"
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 1,
+            "width": 3,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "counter_avg_comp",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "gold_emp_summary",
+                  "fields": [
+                    {
+                      "name": "avg(total_compensation)",
+                      "expression": "AVG(`total_compensation`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Avg Compensation",
+                "showTitle": true
+              },
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "avg(total_compensation)",
+                  "format": {
+                    "type": "number-currency",
+                    "abbreviation": "none",
+                    "currencyCode": "USD",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 0
+                    }
+                  },
+                  "displayName": "Avg Compensation"
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 1,
+            "width": 3,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "counter_retirees",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "gold_emp_summary",
+                  "fields": [
+                    {
+                      "name": "count(EMP_ID)",
+                      "expression": "COUNT(`EMP_ID`)"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "`Retirement Band` = 'Imminent (35+ yrs)'"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Imminent Retirees",
+                "showTitle": true
+              },
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "count(EMP_ID)",
+                  "displayName": "Imminent Retirees"
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 1,
+            "width": 3,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "counter_pay_gaps",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "gold_emp_summary",
+                  "fields": [
+                    {
+                      "name": "count(EMP_ID)",
+                      "expression": "COUNT(`EMP_ID`)"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "`Role` = 'Other'"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Other Staff (Non-Admin/Teacher)",
+                "showTitle": true
+              },
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "count(EMP_ID)",
+                  "displayName": "Other Staff"
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 9,
+            "y": 1,
+            "width": 3,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "seniority_pie",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "gold_emp_summary",
+                  "fields": [
+                    {
+                      "name": "count(EMP_ID)",
+                      "expression": "COUNT(`EMP_ID`)"
+                    },
+                    {
+                      "name": "seniority_level",
+                      "expression": "`seniority_level`"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Employee Distribution by Seniority",
+                "showTitle": true
+              },
+              "widgetType": "pie",
+              "encodings": {
+                "angle": {
+                  "fieldName": "count(EMP_ID)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "Employee Count"
+                },
+                "color": {
+                  "fieldName": "seniority_level",
+                  "displayName": "Seniority Level",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 3,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "degree_roi_bar",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "gold_emp_summary",
+                  "fields": [
+                    {
+                      "name": "HIGHEST_EARNED_DEGREE",
+                      "expression": "`HIGHEST_EARNED_DEGREE`"
+                    },
+                    {
+                      "name": "avg(total_compensation)",
+                      "expression": "AVG(`total_compensation`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Avg Compensation by Degree Level",
+                "showTitle": true
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "HIGHEST_EARNED_DEGREE",
+                  "displayName": "Degree",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "avg(total_compensation)",
+                  "format": {
+                    "type": "number-currency",
+                    "abbreviation": "none",
+                    "currencyCode": "USD",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 0
+                    }
+                  },
+                  "displayName": "Avg Compensation",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 9,
+            "width": 12,
+            "height": 5
+          }
+        },
+        {
+          "widget": {
+            "name": "district_comp_bar",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "gold_emp_summary",
+                  "fields": [
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "avg(total_compensation)",
+                      "expression": "AVG(`total_compensation`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "District Compensation Overview",
+                "showTitle": true
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "DISTRICT_NAME",
+                  "displayName": "District",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "avg(total_compensation)",
+                  "format": {
+                    "type": "number-currency",
+                    "abbreviation": "none",
+                    "currencyCode": "USD",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 0
+                    }
+                  },
+                  "displayName": "Avg Compensation",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 3,
+            "width": 6,
+            "height": 6
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layoutVersion": "GRID_V1"
+    },
+    {
+      "name": "compensation",
+      "displayName": "Compensation Analysis",
+      "layout": [
+        {
+          "widget": {
+            "name": "header",
+            "multilineTextboxSpec": {
+              "lines": [
+                "## Compensation Analysis"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 12,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "pay_equity_bar",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "gold_emp_summary",
+                  "fields": [
+                    {
+                      "name": "Role",
+                      "expression": "`Role`"
+                    },
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "avg(total_compensation)",
+                      "expression": "AVG(`total_compensation`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Avg Compensation by Role & District",
+                "showTitle": true
+              },
+              "mark": {
+                "layout": "group"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "DISTRICT_NAME",
+                  "displayName": "District",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "avg(total_compensation)",
+                  "format": {
+                    "type": "number-currency",
+                    "abbreviation": "none",
+                    "currencyCode": "USD",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 0
+                    }
+                  },
+                  "displayName": "Avg Compensation",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "Role",
+                  "displayName": "Role",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 1,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "quarterly_bar",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "quarterly_pay",
+                  "fields": [
+                    {
+                      "name": "pay_type",
+                      "expression": "`pay_type`"
+                    },
+                    {
+                      "name": "quarter",
+                      "expression": "`quarter`"
+                    },
+                    {
+                      "name": "total_amount",
+                      "expression": "`total_amount`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Quarterly Pay by Type",
+                "showTitle": true
+              },
+              "mark": {
+                "layout": "stack"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "quarter",
+                  "displayName": "Quarter",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "total_amount",
+                  "format": {
+                    "type": "number-currency",
+                    "abbreviation": "none",
+                    "currencyCode": "USD",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 0
+                    }
+                  },
+                  "displayName": "Total Amount",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "pay_type",
+                  "displayName": "Pay Type",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 1,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "top10_table",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "top10_comp",
+                  "fields": [
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "rank",
+                      "expression": "`rank`"
+                    },
+                    {
+                      "name": "EMPLOYEE_NAME",
+                      "expression": "`EMPLOYEE_NAME`"
+                    },
+                    {
+                      "name": "role",
+                      "expression": "`role`"
+                    },
+                    {
+                      "name": "HIGHEST_EARNED_DEGREE",
+                      "expression": "`HIGHEST_EARNED_DEGREE`"
+                    },
+                    {
+                      "name": "years_of_service",
+                      "expression": "`years_of_service`"
+                    },
+                    {
+                      "name": "total_compensation",
+                      "expression": "`total_compensation`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Top 10 Compensated Employees per District",
+                "showTitle": true
+              },
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "DISTRICT_NAME",
+                    "displayName": "District"
+                  },
+                  {
+                    "fieldName": "rank",
+                    "displayName": "Rank"
+                  },
+                  {
+                    "fieldName": "EMPLOYEE_NAME",
+                    "displayName": "Employee"
+                  },
+                  {
+                    "fieldName": "role",
+                    "displayName": "Role"
+                  },
+                  {
+                    "fieldName": "HIGHEST_EARNED_DEGREE",
+                    "displayName": "Degree"
+                  },
+                  {
+                    "fieldName": "years_of_service",
+                    "displayName": "Years of Service"
+                  },
+                  {
+                    "fieldName": "total_compensation",
+                    "displayName": "Total Compensation"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 7,
+            "width": 12,
+            "height": 7
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layoutVersion": "GRID_V1"
+    },
+    {
+      "name": "workforce",
+      "displayName": "Workforce Planning",
+      "layout": [
+        {
+          "widget": {
+            "name": "header",
+            "multilineTextboxSpec": {
+              "lines": [
+                "## Workforce Planning & Retention"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 12,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "retirement_bar",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "gold_emp_summary",
+                  "fields": [
+                    {
+                      "name": "Retirement Band",
+                      "expression": "`Retirement Band`"
+                    },
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "count(EMP_ID)",
+                      "expression": "COUNT(`EMP_ID`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Retirement Risk by District",
+                "showTitle": true
+              },
+              "mark": {
+                "layout": "stack"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "DISTRICT_NAME",
+                  "displayName": "District",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "count(EMP_ID)",
+                  "displayName": "Employees",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "Retirement Band",
+                  "displayName": "Retirement Band",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 1,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "promotion_bar",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "gold_emp_summary",
+                  "fields": [
+                    {
+                      "name": "seniority_level",
+                      "expression": "`seniority_level`"
+                    },
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "count(EMP_ID)",
+                      "expression": "COUNT(`EMP_ID`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Employees by Seniority & District",
+                "showTitle": true
+              },
+              "mark": {
+                "layout": "group"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "DISTRICT_NAME",
+                  "displayName": "District",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "count(EMP_ID)",
+                  "displayName": "Employee Count",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "seniority_level",
+                  "displayName": "Seniority Level",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 1,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "underpaid_table",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "underpaid_seniors",
+                  "fields": [
+                    {
+                      "name": "EMPLOYEE_NAME",
+                      "expression": "`EMPLOYEE_NAME`"
+                    },
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "years_of_service",
+                      "expression": "`years_of_service`"
+                    },
+                    {
+                      "name": "total_compensation",
+                      "expression": "`total_compensation`"
+                    },
+                    {
+                      "name": "district_median_comp",
+                      "expression": "`district_median_comp`"
+                    },
+                    {
+                      "name": "comp_gap_vs_median",
+                      "expression": "`comp_gap_vs_median`"
+                    },
+                    {
+                      "name": "retention_risk",
+                      "expression": "`retention_risk`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Underpaid Senior Employees — Retention Risk",
+                "showTitle": true
+              },
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "EMPLOYEE_NAME",
+                    "displayName": "Employee"
+                  },
+                  {
+                    "fieldName": "DISTRICT_NAME",
+                    "displayName": "District"
+                  },
+                  {
+                    "fieldName": "years_of_service",
+                    "displayName": "Years of Service"
+                  },
+                  {
+                    "fieldName": "total_compensation",
+                    "displayName": "Compensation"
+                  },
+                  {
+                    "fieldName": "district_median_comp",
+                    "displayName": "District Median"
+                  },
+                  {
+                    "fieldName": "comp_gap_vs_median",
+                    "displayName": "Gap vs Median"
+                  },
+                  {
+                    "fieldName": "retention_risk",
+                    "displayName": "Retention Risk"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 7,
+            "width": 12,
+            "height": 7
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layoutVersion": "GRID_V1"
+    },
+    {
+      "name": "compliance",
+      "displayName": "Compliance & Operations",
+      "layout": [
+        {
+          "widget": {
+            "name": "header",
+            "multilineTextboxSpec": {
+              "lines": [
+                "## Compliance & Operations"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 12,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "benefits_bar",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "gold_emp_summary",
+                  "fields": [
+                    {
+                      "name": "Benefits Band",
+                      "expression": "`Benefits Band`"
+                    },
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "count(EMP_ID)",
+                      "expression": "COUNT(`EMP_ID`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Benefits Cost Distribution",
+                "showTitle": true
+              },
+              "mark": {
+                "layout": "stack"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "DISTRICT_NAME",
+                  "displayName": "District",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "count(EMP_ID)",
+                  "displayName": "Employees",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "Benefits Band",
+                  "displayName": "Benefits Level",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 1,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "overtime_table",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "overtime_hotspots",
+                  "fields": [
+                    {
+                      "name": "EMPLOYEE_NAME",
+                      "expression": "`EMPLOYEE_NAME`"
+                    },
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "REG_PAY",
+                      "expression": "`REG_PAY`"
+                    },
+                    {
+                      "name": "OVERTIME_PAY",
+                      "expression": "`OVERTIME_PAY`"
+                    },
+                    {
+                      "name": "ot_pct_of_reg",
+                      "expression": "`ot_pct_of_reg`"
+                    },
+                    {
+                      "name": "ot_risk_level",
+                      "expression": "`ot_risk_level`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Overtime Cost Hotspots",
+                "showTitle": true
+              },
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "EMPLOYEE_NAME",
+                    "displayName": "Employee"
+                  },
+                  {
+                    "fieldName": "DISTRICT_NAME",
+                    "displayName": "District"
+                  },
+                  {
+                    "fieldName": "REG_PAY",
+                    "displayName": "Regular Pay"
+                  },
+                  {
+                    "fieldName": "OVERTIME_PAY",
+                    "displayName": "OT Pay"
+                  },
+                  {
+                    "fieldName": "ot_pct_of_reg",
+                    "displayName": "OT %"
+                  },
+                  {
+                    "fieldName": "ot_risk_level",
+                    "displayName": "Risk Level"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 1,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "cert_gap_table",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "cert_gap",
+                  "fields": [
+                    {
+                      "name": "EMPLOYEE_NAME",
+                      "expression": "`EMPLOYEE_NAME`"
+                    },
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "CERT_DESC",
+                      "expression": "`CERT_DESC`"
+                    },
+                    {
+                      "name": "DATE_EXPIRES",
+                      "expression": "`DATE_EXPIRES`"
+                    },
+                    {
+                      "name": "days_since_expiry",
+                      "expression": "`days_since_expiry`"
+                    },
+                    {
+                      "name": "urgency",
+                      "expression": "`urgency`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Certification Gap Report",
+                "showTitle": true
+              },
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "EMPLOYEE_NAME",
+                    "displayName": "Teacher"
+                  },
+                  {
+                    "fieldName": "DISTRICT_NAME",
+                    "displayName": "District"
+                  },
+                  {
+                    "fieldName": "CERT_DESC",
+                    "displayName": "Certification"
+                  },
+                  {
+                    "fieldName": "DATE_EXPIRES",
+                    "displayName": "Expired On"
+                  },
+                  {
+                    "fieldName": "days_since_expiry",
+                    "displayName": "Days Since"
+                  },
+                  {
+                    "fieldName": "urgency",
+                    "displayName": "Urgency"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 7,
+            "width": 6,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "cert_breadth_table",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "cert_breadth",
+                  "fields": [
+                    {
+                      "name": "cert_breadth_rank",
+                      "expression": "`cert_breadth_rank`"
+                    },
+                    {
+                      "name": "EMPLOYEE_NAME",
+                      "expression": "`EMPLOYEE_NAME`"
+                    },
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "total_certs",
+                      "expression": "`total_certs`"
+                    },
+                    {
+                      "name": "expired_certs",
+                      "expression": "`expired_certs`"
+                    },
+                    {
+                      "name": "total_compensation",
+                      "expression": "`total_compensation`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Teacher Certification Breadth",
+                "showTitle": true
+              },
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "cert_breadth_rank",
+                    "displayName": "Rank"
+                  },
+                  {
+                    "fieldName": "EMPLOYEE_NAME",
+                    "displayName": "Teacher"
+                  },
+                  {
+                    "fieldName": "DISTRICT_NAME",
+                    "displayName": "District"
+                  },
+                  {
+                    "fieldName": "total_certs",
+                    "displayName": "Total Certs"
+                  },
+                  {
+                    "fieldName": "expired_certs",
+                    "displayName": "Expired"
+                  },
+                  {
+                    "fieldName": "total_compensation",
+                    "displayName": "Compensation"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 7,
+            "width": 6,
+            "height": 7
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layoutVersion": "GRID_V1"
+    },
+    {
+      "name": "global_filters",
+      "displayName": "Global Filters",
+      "layout": [
+        {
+          "widget": {
+            "name": "district_filter",
+            "queries": [
+              {
+                "name": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643c0ff18b797ffc75626a0e3ab_DISTRICT_NAME",
+                "query": {
+                  "datasetName": "gold_emp_summary",
+                  "fields": [
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "DISTRICT_NAME_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643c9ec19aab357ecd7b97f5b69_DISTRICT_NAME",
+                "query": {
+                  "datasetName": "gold_district_comp",
+                  "fields": [
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "DISTRICT_NAME_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643cdc91f47927b6b5fedc5af8e_DISTRICT_NAME",
+                "query": {
+                  "datasetName": "pay_equity",
+                  "fields": [
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "DISTRICT_NAME_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643e15e12bda4998ca6dbdb8057_DISTRICT_NAME",
+                "query": {
+                  "datasetName": "retirement_risk",
+                  "fields": [
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "DISTRICT_NAME_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643e5f01ea7a7817913d2756712_DISTRICT_NAME",
+                "query": {
+                  "datasetName": "promotion_pipeline",
+                  "fields": [
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "DISTRICT_NAME_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643ea7d15f1811cafed9236e9eb_DISTRICT_NAME",
+                "query": {
+                  "datasetName": "underpaid_seniors",
+                  "fields": [
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "DISTRICT_NAME_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643ee9616ea92fa11e910d66fe5_DISTRICT_NAME",
+                "query": {
+                  "datasetName": "overtime_hotspots",
+                  "fields": [
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "DISTRICT_NAME_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643f2ea10dda5d0f11779f038fe_DISTRICT_NAME",
+                "query": {
+                  "datasetName": "cert_gap",
+                  "fields": [
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "DISTRICT_NAME_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643f80d1546a4b74d93a2165a32_DISTRICT_NAME",
+                "query": {
+                  "datasetName": "benefits_opt",
+                  "fields": [
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "DISTRICT_NAME_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643fc361284b4b08dfdab636dff_DISTRICT_NAME",
+                "query": {
+                  "datasetName": "cert_breadth",
+                  "fields": [
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "DISTRICT_NAME_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f1464400e3170c9d6b3ce7570752f9_DISTRICT_NAME",
+                "query": {
+                  "datasetName": "top10_comp",
+                  "fields": [
+                    {
+                      "name": "DISTRICT_NAME",
+                      "expression": "`DISTRICT_NAME`"
+                    },
+                    {
+                      "name": "DISTRICT_NAME_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "District",
+                "showTitle": true
+              },
+              "widgetType": "filter-multi-select",
+              "encodings": {
+                "fields": [
+                  {
+                    "fieldName": "DISTRICT_NAME",
+                    "queryName": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643c0ff18b797ffc75626a0e3ab_DISTRICT_NAME"
+                  },
+                  {
+                    "fieldName": "DISTRICT_NAME",
+                    "queryName": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643c9ec19aab357ecd7b97f5b69_DISTRICT_NAME"
+                  },
+                  {
+                    "fieldName": "DISTRICT_NAME",
+                    "queryName": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643cdc91f47927b6b5fedc5af8e_DISTRICT_NAME"
+                  },
+                  {
+                    "fieldName": "DISTRICT_NAME",
+                    "queryName": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643e15e12bda4998ca6dbdb8057_DISTRICT_NAME"
+                  },
+                  {
+                    "fieldName": "DISTRICT_NAME",
+                    "queryName": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643e5f01ea7a7817913d2756712_DISTRICT_NAME"
+                  },
+                  {
+                    "fieldName": "DISTRICT_NAME",
+                    "queryName": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643ea7d15f1811cafed9236e9eb_DISTRICT_NAME"
+                  },
+                  {
+                    "fieldName": "DISTRICT_NAME",
+                    "queryName": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643ee9616ea92fa11e910d66fe5_DISTRICT_NAME"
+                  },
+                  {
+                    "fieldName": "DISTRICT_NAME",
+                    "queryName": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643f2ea10dda5d0f11779f038fe_DISTRICT_NAME"
+                  },
+                  {
+                    "fieldName": "DISTRICT_NAME",
+                    "queryName": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643f80d1546a4b74d93a2165a32_DISTRICT_NAME"
+                  },
+                  {
+                    "fieldName": "DISTRICT_NAME",
+                    "queryName": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643fc361284b4b08dfdab636dff_DISTRICT_NAME"
+                  },
+                  {
+                    "fieldName": "DISTRICT_NAME",
+                    "queryName": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f1464400e3170c9d6b3ce7570752f9_DISTRICT_NAME"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 6,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "seniority_filter",
+            "queries": [
+              {
+                "name": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643c0ff18b797ffc75626a0e3ab_seniority_level",
+                "query": {
+                  "datasetName": "gold_emp_summary",
+                  "fields": [
+                    {
+                      "name": "seniority_level",
+                      "expression": "`seniority_level`"
+                    },
+                    {
+                      "name": "seniority_level_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643e5f01ea7a7817913d2756712_seniority_level",
+                "query": {
+                  "datasetName": "promotion_pipeline",
+                  "fields": [
+                    {
+                      "name": "seniority_level",
+                      "expression": "`seniority_level`"
+                    },
+                    {
+                      "name": "seniority_level_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643ea7d15f1811cafed9236e9eb_seniority_level",
+                "query": {
+                  "datasetName": "underpaid_seniors",
+                  "fields": [
+                    {
+                      "name": "seniority_level",
+                      "expression": "`seniority_level`"
+                    },
+                    {
+                      "name": "seniority_level_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643ee9616ea92fa11e910d66fe5_seniority_level",
+                "query": {
+                  "datasetName": "overtime_hotspots",
+                  "fields": [
+                    {
+                      "name": "seniority_level",
+                      "expression": "`seniority_level`"
+                    },
+                    {
+                      "name": "seniority_level_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Seniority Level",
+                "showTitle": true
+              },
+              "widgetType": "filter-multi-select",
+              "encodings": {
+                "fields": [
+                  {
+                    "fieldName": "seniority_level",
+                    "queryName": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643c0ff18b797ffc75626a0e3ab_seniority_level"
+                  },
+                  {
+                    "fieldName": "seniority_level",
+                    "queryName": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643e5f01ea7a7817913d2756712_seniority_level"
+                  },
+                  {
+                    "fieldName": "seniority_level",
+                    "queryName": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643ea7d15f1811cafed9236e9eb_seniority_level"
+                  },
+                  {
+                    "fieldName": "seniority_level",
+                    "queryName": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643ee9616ea92fa11e910d66fe5_seniority_level"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 0,
+            "width": 6,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "degree_filter",
+            "queries": [
+              {
+                "name": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643c0ff18b797ffc75626a0e3ab_HIGHEST_EARNED_DEGREE",
+                "query": {
+                  "datasetName": "gold_emp_summary",
+                  "fields": [
+                    {
+                      "name": "HIGHEST_EARNED_DEGREE",
+                      "expression": "`HIGHEST_EARNED_DEGREE`"
+                    },
+                    {
+                      "name": "HIGHEST_EARNED_DEGREE_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643d1ca13f1bd8dfcef6e3c9ffb_HIGHEST_EARNED_DEGREE",
+                "query": {
+                  "datasetName": "degree_roi",
+                  "fields": [
+                    {
+                      "name": "HIGHEST_EARNED_DEGREE",
+                      "expression": "`HIGHEST_EARNED_DEGREE`"
+                    },
+                    {
+                      "name": "HIGHEST_EARNED_DEGREE_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643ea7d15f1811cafed9236e9eb_HIGHEST_EARNED_DEGREE",
+                "query": {
+                  "datasetName": "underpaid_seniors",
+                  "fields": [
+                    {
+                      "name": "HIGHEST_EARNED_DEGREE",
+                      "expression": "`HIGHEST_EARNED_DEGREE`"
+                    },
+                    {
+                      "name": "HIGHEST_EARNED_DEGREE_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643fc361284b4b08dfdab636dff_HIGHEST_EARNED_DEGREE",
+                "query": {
+                  "datasetName": "cert_breadth",
+                  "fields": [
+                    {
+                      "name": "HIGHEST_EARNED_DEGREE",
+                      "expression": "`HIGHEST_EARNED_DEGREE`"
+                    },
+                    {
+                      "name": "HIGHEST_EARNED_DEGREE_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f1464400e3170c9d6b3ce7570752f9_HIGHEST_EARNED_DEGREE",
+                "query": {
+                  "datasetName": "top10_comp",
+                  "fields": [
+                    {
+                      "name": "HIGHEST_EARNED_DEGREE",
+                      "expression": "`HIGHEST_EARNED_DEGREE`"
+                    },
+                    {
+                      "name": "HIGHEST_EARNED_DEGREE_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Degree Level",
+                "showTitle": true
+              },
+              "widgetType": "filter-multi-select",
+              "encodings": {
+                "fields": [
+                  {
+                    "fieldName": "HIGHEST_EARNED_DEGREE",
+                    "queryName": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643c0ff18b797ffc75626a0e3ab_HIGHEST_EARNED_DEGREE"
+                  },
+                  {
+                    "fieldName": "HIGHEST_EARNED_DEGREE",
+                    "queryName": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643d1ca13f1bd8dfcef6e3c9ffb_HIGHEST_EARNED_DEGREE"
+                  },
+                  {
+                    "fieldName": "HIGHEST_EARNED_DEGREE",
+                    "queryName": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643ea7d15f1811cafed9236e9eb_HIGHEST_EARNED_DEGREE"
+                  },
+                  {
+                    "fieldName": "HIGHEST_EARNED_DEGREE",
+                    "queryName": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f14643fc361284b4b08dfdab636dff_HIGHEST_EARNED_DEGREE"
+                  },
+                  {
+                    "fieldName": "HIGHEST_EARNED_DEGREE",
+                    "queryName": "dashboards/01f14643698f103d8deac021bbeff0a5/datasets/01f1464400e3170c9d6b3ce7570752f9_HIGHEST_EARNED_DEGREE"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 1,
+            "width": 6,
+            "height": 1
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_GLOBAL_FILTERS",
+      "layoutVersion": "GRID_V1"
+    }
+  ],
+  "uiSettings": {
+    "theme": {
+      "canvasBackgroundColor": {
+        "light": "#F0F2F5",
+        "dark": "#121820"
+      },
+      "widgetBackgroundColor": {
+        "light": "#FFFFFF",
+        "dark": "#1B2430"
+      },
+      "widgetBorderColor": {
+        "light": "#D8DCE3",
+        "dark": "#2A3545"
+      },
+      "fontColor": {
+        "light": "#1E293B",
+        "dark": "#E2E8F0"
+      },
+      "selectionColor": {
+        "light": "#2563EB",
+        "dark": "#60A5FA"
+      },
+      "visualizationColors": [
+        "#2563EB",
+        "#0891B2",
+        "#6366F1",
+        "#059669",
+        "#0EA5E9",
+        "#7C3AED",
+        "#14B8A6",
+        "#3B82F6"
+      ],
+      "widgetHeaderAlignment": "LEFT",
+      "fontFamily": "Trebuchet MS"
+    },
+    "applyModeEnabled": false
+  }
+}
