@@ -19,7 +19,6 @@
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Setup & Configuration](#setup--configuration)
-- [Usage](#usage)
 - [Author](#author)
 
 ---
@@ -262,28 +261,6 @@ Run the notebooks in sequence — each layer depends on the previous:
 3. employee_gold         →  Aggregates silver into gold analytics views
 4. employee_business_cases →  Builds 11 scenario-specific gold tables
 5. Dashboard             →  Automatically refreshes from gold tables
-```
-
----
-
-## Usage
-
-1. **Clone this repo** into your Databricks workspace
-2. **Attach a cluster** (or use serverless compute)
-3. **Run notebooks 1–4** in order to build the full pipeline
-4. **Import the dashboard** (`Employee Business Cases Dashboard.lvdash.json`) to visualize results
-5. **Query gold tables** directly for ad-hoc analysis:
-
-```sql
--- Which districts have the worst admin-teacher pay gap?
-SELECT DISTRICT_NAME, pay_gap_pct, equity_flag
-FROM employeedatacatalog.gold_employee.admin_vs_teacher_pay_equity
-ORDER BY pay_gap_pct DESC;
-
--- Who's at highest retention risk?
-SELECT EMPLOYEE_NAME, DISTRICT_NAME, comp_gap_vs_median, retention_risk
-FROM employeedatacatalog.gold_employee.underpaid_senior_employees
-WHERE retention_risk = 'Critical';
 ```
 
 ---
