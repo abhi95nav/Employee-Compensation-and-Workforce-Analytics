@@ -290,7 +290,7 @@ WHERE retention_risk = 'Critical';
 
 ## Author
 
-**Athupili** — Kent State University
+**Abhinav thupili**
 Built on Azure Databricks | May 2026
 
 ---
